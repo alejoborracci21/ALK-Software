@@ -17,25 +17,33 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-
       </head>
-      <body className={inter.className}>
-        <div className={styles.navbar}>
-        <Link href={"/about"}><button>Nosotros</button></Link>
-        <Link href={"/portfolio"}><button>Portfolio</button></Link>
-        <Link href={"/contact"}><button>Contacto</button></Link>
-      </div>
-      
-    <div>
-      {children}
-    </div>
 
-      <footer>
-        <h1>Hola</h1>
-        <h1>Hola</h1>
-        <h1>Hola</h1>
-        <h1>Hola</h1>
-      </footer>
+      <body className={inter.className}>
+        <nav className={styles.navbar}>
+        <Link href={"/"}>
+            <button>Inicio</button>
+          </Link>
+          <Link href={"/about"}>
+            <button>Nosotros</button>
+          </Link>
+          <Link href={"/portfolio"}>
+            <button>Portfolio</button>
+          </Link>
+          <Link href={"/contact"}>
+            <button>Contacto</button>
+          </Link>
+        </nav>
+
+
+        <div>{children}</div>
+
+        <footer>
+          <h1>footer</h1>
+          <h1>footer</h1>
+          <h1>footer</h1>
+          <h1>footer</h1>
+        </footer>
       </body>
     </html>
   );
