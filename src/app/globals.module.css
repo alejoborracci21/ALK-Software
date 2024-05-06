@@ -108,7 +108,7 @@
   width: 100%;
   height: 20vh;
   bottom: 0;
-  background: linear-gradient(to top, #feffff, rgba(74, 74, 74, 0.322));
+  background: linear-gradient(to top, #feffff, #ffffff);
 }
 
 .footer ul {
@@ -157,7 +157,7 @@
   height: 50px;
   border-radius: 50%;
   color: #4d4d4d;
-  background: linear-gradient(to top, #feffff, #777777);
+  background: linear-gradient(to top, #feffff, #ffffff);
   transition: all 0.3s ease-in-out;
 }
 
