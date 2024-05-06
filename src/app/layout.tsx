@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
@@ -22,7 +21,7 @@ export default function RootLayout({
 
       <body className={inter.className}>
         <nav className={styles.navbar}>
-        <Link href={"/"} className={styles.link}>
+          <Link href={"/"} className={styles.link}>
             <button className={styles.button}>Inicio</button>
           </Link>
           <Link href={"/about"} className={styles.link}>
@@ -40,8 +39,7 @@ export default function RootLayout({
         <div>{children}</div>
 
         <footer className={styles.footer}>
-          
-        <ul className={styles.example}>
+          <ul className={styles.example}>
             < li className={styles.iconcontent}>
               <a
                 data-social="spotify"
@@ -65,7 +63,7 @@ export default function RootLayout({
                 href="https://www.pinterest.com/"
               >
                 <div className={styles.filled}></div>
-                <svg  viewBox="0 0 100 100" version="1.1">
+                <svg viewBox="0 0 100 100" version="1.1">
                   <path
                     fill="currentColor"
                     d="M83,17.8C74.5,8.9,63.4,4.3,50,4.1C37.7,4.2,26.8,8.6,17.9,17.3C8.9,26,4.3,37,4.1,50c0,0,0,0,0,0c0,9.1,2.5,17.4,7.4,24.9  c4.9,7.4,11.6,13.2,20.1,17.1c0.3,0.1,0.7,0.1,1-0.1c0.3-0.2,0.5-0.5,0.5-0.8l0-4.9c0.1-2.1,0.7-5.3,1.7-9.5c1-4,1.7-6.7,1.9-7.6  c0.7-3,1.7-7.2,3-12.6c0.1-0.2,0-0.5-0.1-0.7c-0.4-0.8-1-2.6-1.5-6.6c0.1-2.7,0.8-5.2,2.1-7.3c1.2-2,3.1-3.1,5.7-3.5  c2,0.1,4.7,0.8,5.1,5.9c-0.1,1.8-0.8,4.5-1.9,8.1c-1.2,3.8-1.9,6.3-2.1,7.6c-0.7,2.5-0.2,4.8,1.5,6.8c1.6,1.9,3.8,2.9,6.5,3.1  c4.3-0.1,8.1-2.6,11.2-7.5c1.7-3,2.9-6.3,3.5-9.7c0.7-3.4,0.7-7.1,0-10.8c-0.7-3.8-2.2-7.1-4.5-9.8c0,0-0.1-0.1-0.1-0.1  c-4.3-3.7-9.5-5.3-15.6-5c-6,0.4-11.3,2.6-15.9,6.6c-2.9,3.2-4.8,7.1-5.7,11.6c-0.9,4.6,0,9.1,2.6,13.3c0.3,0.5,0.5,0.8,0.6,1  c0,0.3,0,1-0.5,2.8c-0.5,1.8-0.9,2.2-0.9,2.2c0,0-0.1,0-0.1,0.1c0,0-0.2,0-0.4-0.1c-2.2-1-3.9-2.4-5.2-4.2c-1.3-1.9-2.1-4-2.5-6.3  c-0.3-2.5-0.4-5-0.3-7.5c0.2-2.5,0.7-5.1,1.4-7.7c3-6.9,8.5-11.9,16.3-14.8c7.8-2.9,16-3.2,24.3-0.8c6.5,2.8,11,7.4,13.6,13.7  c2.5,6.4,2.8,13.4,0.8,20.8c-2.2,7.1-6.4,12.4-12.1,15.7c-5.6,2.8-10.8,3-15.7,0.7c-1.8-1.1-3.1-2.3-3.9-3.5c-0.2-0.3-0.6-0.5-1-0.5  c-0.4,0.1-0.7,0.3-0.8,0.7c-0.7,2.7-1.3,4.7-1.6,6.2c-1.4,5.4-2.6,9.2-3.4,11c-0.8,1.6-1.6,3.1-2.4,4.3c-0.2,0.3-0.2,0.6-0.1,0.9  s0.3,0.5,0.6,0.6c4.3,1.3,8.7,2,13,2c12.4-0.1,23.2-4.6,32.1-13.4C91.1,73.9,95.8,62.9,96,50C95.9,37.5,91.5,26.7,83,17.8z"
@@ -90,7 +88,7 @@ export default function RootLayout({
               </a>
               <div className={styles.tooltip} >Dribbble</div>
             </li>
-            <li  className={styles.iconcontent}>
+            <li className={styles.iconcontent}>
               <a
                 data-social="telegram"
                 aria-label="Telegram"
@@ -107,11 +105,8 @@ export default function RootLayout({
               <div className={styles.tooltip} >Telegram</div>
             </li>
           </ul>
-
-
-
         </footer>
-      </body>
-    </html>
+      </body >
+    </html >
   );
 }
