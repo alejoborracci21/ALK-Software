@@ -9,6 +9,7 @@
 
 .navbar{
   position: fixed;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
