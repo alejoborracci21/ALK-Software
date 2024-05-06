@@ -113,7 +113,7 @@
 
 .footer ul {
   list-style: none;
- 
+
 }
 
 .example {
@@ -218,4 +218,10 @@
   margin: 0 10px;
   position: relative;
   margin-top: auto;
+}
+
+.imgC {
+  width: 20px;
+  height: 20px;
+  justify-content: left;
 }

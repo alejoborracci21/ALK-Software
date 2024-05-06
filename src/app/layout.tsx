@@ -100,7 +100,8 @@ export default function RootLayout({
             </li>
           </ul>
           <div className={styles.nombre}>
-            <p>ALK Software</p>
+            <img className={styles.imgC} src="https://e7.pngegg.com/pngimages/406/492/png-clipart-copyright-symbol-trademark-symbol-copyright-law-of-the-united-states-copyright-trademark-words-phrases.png" alt="c"/>
+            <p>  ALK Software</p>
           </div>
         </footer>
       </body >
