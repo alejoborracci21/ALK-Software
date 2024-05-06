@@ -36,13 +36,10 @@ export default function RootLayout({
         </nav>
 
 
-        <div className={styles.children}>{children}</div>
+        <div>{children}</div>
 
-        <footer>
-          <h1>footer</h1>
-          <h1>footer</h1>
-          <h1>footer</h1>
-          <h1>footer</h1>
+        <footer className={styles.footer}>
+          <p>footer</p>
         </footer>
       </body>
     </html>
