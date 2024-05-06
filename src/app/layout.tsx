@@ -15,28 +15,28 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={styles.html}>
       <head>
       </head>
 
       <body className={inter.className}>
         <nav className={styles.navbar}>
-        <Link href={"/"}>
-            <button>Inicio</button>
+        <Link href={"/"} className={styles.link}>
+            <button className={styles.button}>Inicio</button>
           </Link>
-          <Link href={"/about"}>
-            <button>Nosotros</button>
+          <Link href={"/about"} className={styles.link}>
+            <button className={styles.button}>Nosotros</button>
           </Link>
-          <Link href={"/portfolio"}>
-            <button>Portfolio</button>
+          <Link href={"/portfolio"} className={styles.link}>
+            <button className={styles.button}>Portfolio</button>
           </Link>
-          <Link href={"/contact"}>
-            <button>Contacto</button>
+          <Link href={"/contact"} className={styles.link}>
+            <button className={styles.button}>Contacto</button>
           </Link>
         </nav>
 
 
-        <div>{children}</div>
+        <div className={styles.children}>{children}</div>
 
         <footer>
           <h1>footer</h1>
