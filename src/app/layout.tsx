@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
@@ -15,24 +16,32 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={styles.html}>
       <head>
-
       </head>
+
       <body className={inter.className}>
-        <div className={styles.navbar}>
-          <Link href={"/about"}><button>Nosotros</button></Link>
-          <Link href={"/portfolio"}><button>Portfolio</button></Link>
-          <Link href={"/contact"}><button>Contacto</button></Link>
-        </div>
+        <nav className={styles.navbar}>
+        <Link href={"/"} className={styles.link}>
+            <button className={styles.button}>Inicio</button>
+          </Link>
+          <Link href={"/about"} className={styles.link}>
+            <button className={styles.button}>Nosotros</button>
+          </Link>
+          <Link href={"/portfolio"} className={styles.link}>
+            <button className={styles.button}>Portfolio</button>
+          </Link>
+          <Link href={"/contact"} className={styles.link}>
+            <button className={styles.button}>Contacto</button>
+          </Link>
+        </nav>
 
-        <div>
-          {children}
-        </div>
 
-        <footer className={styles.lista}>
+        <div>{children}</div>
 
-          <ul className={styles.example}>
+        <footer className={styles.footer}>
+          
+        <ul className={styles.example}>
             < li className={styles.iconcontent}>
               <a
                 data-social="spotify"
@@ -100,8 +109,9 @@ export default function RootLayout({
           </ul>
 
 
+
         </footer>
       </body>
-    </html >
+    </html>
   );
 }

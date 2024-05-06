@@ -1,94 +1,111 @@
+.html body{
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  background-color: rgba(37, 37, 37, 0.739);
+}
+
+
 .navbar{
+  top: 0;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 5%;
-  background-color: aqua;
+  width: 100%;
+  height: 10%;
+  background-color: transparent;
 }
 
-.lista ul {
-  list-style: none;
+.children{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(74, 74, 74, 0.781);
+  color: white;
+  margin: 0;
 }
 
-.example {
-  display: flex;
+.button{
   justify-content: center;
   align-items: center;
-}
-.example .iconcontent {
-  margin: 0 10px;
-  position: relative;
-}
-.example .iconcontent .tooltip {
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 5px;
-  opacity: 0;
-  visibility: hidden;
-  font-size: 14px;
-  transition: all 0.3s ease;
-}
-.example .iconcontent:hover .tooltip {
-  opacity: 1;
-  visibility: visible;
-  top: -50px;
-}
-.example .iconcontent a {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  color: #4d4d4d;
-  background-color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-.example .iconcontent a:hover {
-  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
-}
-.example .iconcontent a svg {
-  position: relative;
-  z-index: 1;
-  width: 30px;
-  height: 30px;
-}
-.example .iconcontent a:hover {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border: 0px;
   color: white;
 }
-.example .iconcontent a .filled {
-  position: absolute;
-  top: auto;
-  bottom: 0;
-  left: 0;
+
+.link{
+  padding: 5px;
+}
+
+.footer{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 0;
-  background-color: #000;
-  transition: all 0.3s ease-in-out;
+  height: 20vh;
+  bottom: 0;
+  background-color: black;
 }
-.example .iconcontent a:hover .filled {
-  height: 100%;
+
+.html body{
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  background-color: rgba(37, 37, 37, 0.739);
 }
-.example .iconcontent a[data-social="spotify"] .filled,
-.example .iconcontent a[data-social="spotify"] ~ .tooltip {
-  background-color: #1db954;
+
+
+.navbar{
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  background-color: transparent;
 }
-.example .iconcontent a[data-social="pinterest"] .filled,
-.example .iconcontent a[data-social="pinterest"] ~ .tooltip {
-  background-color: #bd081c;
+
+.children{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(74, 74, 74, 0.781);
+  color: white;
+  margin: 0;
 }
-.example2 .iconcontent a[data-social="dribbble"] .filled,
-.example2 .iconcontent a[data-social="dribbble"] ~ .tooltip {
-  background-color: #ea4c89;
+
+.button{
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border: 0px;
+  color: white;
 }
-.example2 .iconcontent a[data-social="telegram"] .filled,
-.example2 .iconcontent a[data-social="telegram"] ~ .tooltip {
-  background-color: #0088cc;
+
+.link{
+  padding: 5px;
+}
+
+.footer{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  bottom: 0;
+  background-color: black;
 }
