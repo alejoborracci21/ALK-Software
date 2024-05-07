@@ -1,8 +1,11 @@
 import styles from "./page.module.css"
+import { useState } from "react";
+
 
 export default function Contact() {
 
   const onSubmit:Function = () => {
+    //Validaciones del formulario
     console.log("Gracias por comunicarte con nosotros, te responderemos en menos de 24 horas")
     
   }
