@@ -5,3 +5,41 @@
     align-items: center;
     justify-content: center;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    width: 60%;
+    height: 80%;
+    background-color: rgba(46, 46, 46, 0.834);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+}
+
+.label{
+    width: 50%;
+    height: 10px;
+    margin-bottom: 10%;
+}
+
+.input{
+    margin-left: 15px;
+    right: 0;
+}
+
+.button{
+    width: 10%;
+    height: 6%;
+    border-radius: 5px;
+    border: transparent;
+}
