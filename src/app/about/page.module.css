@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     color: black;
-    background: linear-gradient(to top, #ffffff, hsla(0, 0%, 6%, 0.932)55%);
+    background: linear-gradient(to top, #ffffff, #0f3a57);
 }
 
 .container {
@@ -13,26 +13,24 @@
     align-items: center;
     text-align: center;
     background: linear-gradient(to top, #dde6eb, #0f3a57 75%);
-    border-radius: 7%;
+    border-radius:7%;
 
 }
-
-.banner {
+.banner{
     width: 100%;
     margin: auto;
-    height: 85vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.942), rgba(0, 0, 0, 0.662)), url('../../img/teclado.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.942), rgba(0, 0, 0, 0.662)), url('../../img/teclado.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
     margin-top: 5%;
     color: rgb(212, 212, 212);
     display: flex;
     flex-direction: column;
-
+  
 }
-
 .banner h1 {
     margin-bottom: 10px;
     color: white;
@@ -42,15 +40,14 @@
     text-transform: uppercase;
     /* Espacio entre el título y el párrafo */
 }
-
-.text {
+.text{
     width: 50%;
     margin: auto;
     height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4%;
+    padding-top: 3%;
 
     box-sizing: border-box;
 
@@ -58,33 +55,34 @@
 
 
 
-.contact {
+.contact{
     background: #2a4d4f;
-    padding: 1.5%;
-    cursor: pointer;
+  padding: 1.5%;
+  cursor: pointer;
     color: white;
     width: 20%;
     border: 1px solid rgb(78, 78, 78);
-    border-radius: 1em;
+    border-radius: 1em ;
     margin-top: 1%;
     font-size: 16px;
 }
 
-.contact:hover {
+.contact:hover{
     background-color: #5c8183;
 }
 
-.info {
+.info{
     width: 80%;
     margin: auto;
     height: 20%;
 
+ margin-bottom: 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.h4 {
+.h4{
     height: 4em;
     line-height: 2rem;
     display: flex;
@@ -93,8 +91,7 @@
     color: rgb(218, 218, 218);
 
 }
-
-.container span {
+.container span{
 
     color: #ffffff;
     font-weight: bold;
@@ -133,7 +130,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* Centra los elementos horizontalmente */
     gap: 20px;
+    /* Espacio entre los cards */
     margin-top: 60px;
     margin-bottom: 50px;
 }
@@ -141,10 +140,10 @@
 .card {
     width: 250px;
     height: 300px;
-    background: linear-gradient(to top, #284453 2%, #444647 75%);
+    background: #0f3a57;
     padding: 2rem 1.5rem;
     transition: box-shadow .3s ease, transform .2s ease;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .cardinfo {
@@ -156,44 +155,39 @@
 }
 
 /*Image*/
-.cardavatarAlejo {
-    --size: 150px;
+.cardavatarAlejo{
+    --size: 160px;
     background-image: url("https://media.licdn.com/dms/image/D5635AQF0CEvORHLvbw/profile-framedphoto-shrink_800_800/0/1713746730551?e=1715698800&v=beta&t=b_RNJ9Ej1ndoe5Cs9LnliQtK2FuE3gAO5M5P-Ia0oSQ");
     /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
-    background-size: cover;
-    /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
     background-position: center;
     width: var(--size);
     height: var(--size);
-    border-radius: 30%;
+    border-radius: 50%;
     transition: transform .2s ease;
     margin-bottom: 1rem;
 }
-
 .cardavatarLudmi {
-    --size: 150px;
+    --size: 160px;
     background-image: url("https://media.licdn.com/dms/image/D4D35AQE6yA9xyXITaw/profile-framedphoto-shrink_800_800/0/1707856835331?e=1715698800&v=beta&t=oSeNWXs6tkSDyQpUChAj1EDGXiNy1_QeWoFUwZ_4f64");
     /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
-    background-size: cover;
-    /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
     background-position: center;
     width: var(--size);
     height: var(--size);
-    border-radius: 30%;
+    border-radius: 50%;
     transition: transform .2s ease;
     margin-bottom: 1rem;
 }
-
-.cardavatarKevin {
-    --size: 150px;
+.cardavatarKevin{
+    --size: 160px;
     background-image: url("https://media.licdn.com/dms/image/D4D35AQFiFoRmcz2eCA/profile-framedphoto-shrink_400_400/0/1705512871736?e=1715698800&v=beta&t=4cJtaM7VFC_ReiDZpXri5VjsscuOLx-9QuwFjFVutRg");
     /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
-    background-size: cover;
-    /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
     background-position: center;
     width: var(--size);
     height: var(--size);
-    border-radius: 30%;
+    border-radius: 50%;
     transition: transform .2s ease;
     margin-bottom: 1rem;
 }
@@ -231,7 +225,7 @@
     line-height: 2rem;
 }
 
-.cardtitle span {
+.cardtitle span{
     color: #188b5b;
 }
 
