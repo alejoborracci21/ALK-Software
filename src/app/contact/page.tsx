@@ -1,5 +1,4 @@
 import styles from "./page.module.css"
-import { useRouter } from 'next/router';
 
 export default function Contact() {
 

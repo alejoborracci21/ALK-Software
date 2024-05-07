@@ -3,19 +3,118 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 30%;
+    padding: 0;
+     margin-top: 4%;
+    background-color: rgba(74, 74, 74, 0.781);
 }
 
 .page1{
-    width: 100%;
+    width: 80vw;
     height: 100vh;
-    background-color: transparent;
+    margin: auto;
+display: flex;
+    box-sizing: border-box;
+  
+}
+
+.left, .right{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.left{
+   color: white;
+    padding: 2em;
+}
+
+.title{
+    margin-top: 20%;
+    font-size: 40px;
+    height: 40%;
+}
+.title h1{
+    height: 80%;
+    font: 18px;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.pp{
+  
+    font: 18px;
+    line-height: 20px;
+    color: white;
+    
+}
+
+.p{
+  
+    font: 18px;
+    line-height: 20px;
+    color: gray;
+    width: 90%;
+    
+}
+
+.right{
+    background-image: url('../img/pngegg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .page2{
+    width: 98.9vw;
+    height: 110vh;
+    background-color: #E6E6E6;
+    padding-top: 8%;
+    margin: auto;
+    
+}
+
+.services{
+    height: 80%;
+
     width: 100%;
-    height: 100vh;
-    background-color: transparent;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+    box-sizing: border-box;
+}
+
+.service{
+    height: 30%;
+    width: 35%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+  
+}
+
+.h3{
+    text-transform: uppercase;
+}
+.title2{
+ 
+    width: 60%;
+    text-align: center;
+    height: 15%;
+    box-sizing: border-box;
+    padding: 1%;
+    margin: auto;
+
+  
+}
+
+.h2{
+
+font-size: 40px;
+margin-bottom: 4%;
+text-transform: uppercase;
 }
 
 .page3{

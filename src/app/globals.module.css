@@ -1,8 +1,10 @@
+
+
 .html body {
   margin: 0;
   padding: 0;
   line-height: 0;
-  background-color: rgba(37, 37, 37, 0.739);
+  background-color: rgba(230, 230, 230, 0.739);
 }
 
 
@@ -13,8 +15,29 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 10%;
-  background-color: transparent;
+  height: 11%;
+  background-color: #7D7D7D;
+  /* font-size: 50px; */
+
+}
+.logo{
+  width: 7%;
+  height: 100%;
+  position: absolute;
+  top:5;
+  right: 85%;
+color: white;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: auto;
+text-align: center;
+box-sizing: border-box;
+  background-image: url('../img/Circulo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .children {
@@ -27,61 +50,8 @@
   color: white;
   margin: 0;
 }
-
-.button {
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: transparent;
-  border: 0px;
-  color: white;
-}
-
-.link {
-  padding: 5px;
-}
-
-.footer {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.sections{
   width: 100%;
-  height: 20vh;
-  bottom: 0;
-  background-color: black;
-}
-
-.html body {
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-  background-color: rgba(37, 37, 37, 0.739);
-}
-
-
-.navbar {
-  top: 0;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 10%;
-  background-color: transparent;
-}
-
-.children {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(74, 74, 74, 0.781);
-  color: white;
-  margin: 0;
 }
 
 .button {
@@ -93,6 +63,8 @@
   background-color: transparent;
   border: 0px;
   color: white;
+  font-size: 17px;
+  margin: 0 2em 0 2em; 
 }
 
 .button:hover{
@@ -100,6 +72,7 @@
 }
 .link {
   padding: 5px;
+
 }
 
 .footer {
