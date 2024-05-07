@@ -257,3 +257,184 @@ background-attachment: fixed;
 .cardavatar:hover {
     transform: scale(1.1);
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .text {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .text {
+        width: 80%;
+    }
+
+    .banner h1 {
+        font-size: 2.5em;
+    }
+
+    .contact {
+        width: 30%;
+    }
+
+    .info {
+        width: 85%;
+    }
+
+    .texto {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .banner{
+        height: 90vh;
+    }
+    .text {
+        width: 80%;
+        height: 40%;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .contact {
+        width: 35%;
+    }
+
+    .info {
+        width: 90%;
+    }
+
+    .texto {
+        width: 90%;
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .banner{
+        height: 100vh;
+    }
+    .text {
+        width: 90%;
+        height: 40%;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .contact {
+        width: 40%;
+    }
+
+    .info {
+        width: 90%;
+    }
+
+    .texto {
+        width: 90%;
+        line-height: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .banner{
+        height: 130vh;
+      }
+        .text {
+            width: 90%;
+       height: 35%;
+       margin-bottom: 0;
+    
+        }
+    
+        .banner h1 {
+            font-size: 1.5em;
+        }
+    
+        .contact {
+            width: 70%;
+       
+        }
+    
+        .info {
+            width: 98%;
+            flex-direction: column;
+            height: auto;
+            height: 45%;
+        }
+    
+        .texto {
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width: 450px) {
+    .banner{
+        height: 160vh;
+      }
+        .text {
+            width: 80%;
+       height: 35%;
+       margin-bottom: 0;
+    
+        }
+    
+        .banner h1 {
+            font-size: 1.5em;
+        }
+    
+        .contact {
+            width: 70%;
+       
+        }
+    
+        .info {
+            width: 98%;
+            flex-direction: column;
+            height: auto;
+            height: 45%;
+        }
+    
+        .texto {
+            width: 98%;
+            font-size: 19px;
+        }
+}
+
+@media only screen and (max-width: 390px) {
+  .banner{
+    height: 150vh;
+  }
+    .text {
+        width: 80%;
+   height: 35%;
+   margin-bottom: 0;
+
+    }
+
+    .banner h1 {
+        font-size: 1.5em;
+    }
+
+    .contact {
+        width: 70%;
+   
+    }
+
+    .info {
+        width: 98%;
+        flex-direction: column;
+        height: auto;
+        height: 45%;
+    }
+
+    .texto {
+        width: 98%;
+    }
+}
