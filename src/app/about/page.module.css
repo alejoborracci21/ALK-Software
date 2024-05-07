@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     color: black;
-    background: linear-gradient(to top, #ffffff, #0f3a57);
+    background: linear-gradient(to top, #ffffff, hsla(0, 0%, 6%, 0.932)55%);
 }
 
 .container {
@@ -133,9 +133,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* Centra los elementos horizontalmente */
     gap: 20px;
-    /* Espacio entre los cards */
     margin-top: 60px;
     margin-bottom: 50px;
 }
