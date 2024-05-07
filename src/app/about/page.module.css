@@ -1,7 +1,187 @@
-.page{
-    width: 100%;
-    height: 100vh;
+.page {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
+    color: black;
+    background: linear-gradient(to top, #ffffff, #767779);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 2rem;
+    
+    /* Espacio entre el título y el párrafo */
+}
+
+.container span{
+    color: #05222e;
+}
+
+.texto {
+    flex: 1;
+    /* Hace que el texto ocupe el espacio restante */
+    height: 80%;
+    font-size: 18px;
+    /* Corrección de la propiedad 'font' a 'font-size' */
+    line-height: 25px;
+    margin-right: 20px;
+    /* Permite que el texto se envuelva dentro del contenedor */
+}
+
+.imagenAbout {
+    border-radius: 100px;
+    filter: none;
+    max-width: 30%;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+.galeria {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    gap: 20px;
+    /* Espacio entre los cards */
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background: #963f3f;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+    border-radius: 5%;
+}
+
+.cardinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+/*Image*/
+.cardavatarAlejo{
+    --size: 150px;
+    background-image: url("https://media.licdn.com/dms/image/D5635AQF0CEvORHLvbw/profile-framedphoto-shrink_800_800/0/1713746730551?e=1715698800&v=beta&t=b_RNJ9Ej1ndoe5Cs9LnliQtK2FuE3gAO5M5P-Ia0oSQ");
+    /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-position: center;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 30%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+}
+.cardavatarLudmi {
+    --size: 150px;
+    background-image: url("https://media.licdn.com/dms/image/D4D35AQE6yA9xyXITaw/profile-framedphoto-shrink_800_800/0/1707856835331?e=1715698800&v=beta&t=oSeNWXs6tkSDyQpUChAj1EDGXiNy1_QeWoFUwZ_4f64");
+    /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-position: center;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 30%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+}
+.cardavatarKevin{
+    --size: 150px;
+    background-image: url("https://media.licdn.com/dms/image/D4D35AQFiFoRmcz2eCA/profile-framedphoto-shrink_400_400/0/1705512871736?e=1715698800&v=beta&t=4cJtaM7VFC_ReiDZpXri5VjsscuOLx-9QuwFjFVutRg");
+    /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-position: center;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 30%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+}
+
+
+/*Card footer*/
+.cardsocial {
+    transform: translateY(200%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    opacity: 0;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+.cardsocialitem {
+    list-style: none;
+    margin-left: -33%;
+}
+
+.cardsocialitem svg {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    fill: #05222e;
+    cursor: pointer;
+    transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+/*Text*/
+.cardtitle {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.cardtitle span{
+    color: #05222e;
+}
+
+.cardsubtitle {
+    color: #859ba8;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+/*Hover*/
+.card:hover {
+    box-shadow: 0 8px 50px #23232333;
+}
+
+.card:hover .cardinfo {
+    transform: translateY(-5%);
+}
+
+.card:hover .cardsocial {
+    transform: translateY(100%);
+    opacity: 1;
+}
+
+.cardsocialitem svg:hover {
+    fill: #232323;
+    transform: scale(1.1);
+}
+
+.cardavatar:hover {
+    transform: scale(1.1);
 }
