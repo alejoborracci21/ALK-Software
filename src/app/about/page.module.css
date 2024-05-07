@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     color: black;
-    background: linear-gradient(to top, #ffffff, #767779);
+    background: linear-gradient(to top, #ffffff, #0f3a57);
 }
 
 .container {
@@ -12,24 +12,27 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
+    background: linear-gradient(to top, #dde6eb, #0f3a57 75%);
+    border-radius:7%;
+
 }
 
 .container h1 {
+    width: 75%;
     margin-bottom: 10px;
     color: #000000;
     font-size: 2.5em;
     font-weight: 600;
     line-height: 2rem;
-    
-    /* Espacio entre el título y el párrafo */
 }
 
 .container span{
-    color: #05222e;
+    color: #0047b1;
 }
 
 .texto {
     flex: 1;
+    width: 75%;
     /* Hace que el texto ocupe el espacio restante */
     height: 80%;
     font-size: 18px;
@@ -42,14 +45,15 @@
 .imagenAbout {
     border-radius: 100px;
     filter: none;
-    max-width: 30%;
+    max-width: 35%;
     height: auto;
     margin-top: 70px;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
     text-align: center;
-    transform: rotate(90deg);
+    margin-left: -90px;
+    left: -80px;
 }
 
 .galeria {
@@ -68,7 +72,7 @@
 .card {
     width: 250px;
     height: 300px;
-    background: #963f3f;
+    background: #0f3a57;
     padding: 2rem 1.5rem;
     transition: box-shadow .3s ease, transform .2s ease;
     border-radius: 5%;
@@ -140,7 +144,7 @@
     display: flex;
     height: 30px;
     width: 30px;
-    fill: #05222e;
+    fill: #fdfdfd;
     cursor: pointer;
     transition: fill 0.2s ease, transform 0.2s ease;
 }
@@ -154,7 +158,7 @@
 }
 
 .cardtitle span{
-    color: #05222e;
+    color: #188b5b;
 }
 
 .cardsubtitle {
