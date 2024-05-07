@@ -126,8 +126,10 @@
     flex: 1;
 }
 
-.page3 {
-    width: 100%;
+
+.page3{
+    width: 96%;
+
     height: 100vh;
     padding: 2%;
     background-color: #D9D9D9;
