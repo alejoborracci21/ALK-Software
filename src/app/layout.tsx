@@ -21,6 +21,7 @@ export default function RootLayout({
 
       <body className={inter.className}>
         <nav className={styles.navbar}>
+          <div className={styles.logo}>ALK</div>
           <Link href={"/"} className={styles.link}>
             <button className={styles.button}>Inicio</button>
           </Link>
@@ -36,7 +37,7 @@ export default function RootLayout({
         </nav>
 
 
-        <div>{children}</div>
+        <div className={styles.sections}>{children}</div>
 
         <footer className={styles.footer}>
           <ul className={styles.example}>
