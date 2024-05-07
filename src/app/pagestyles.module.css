@@ -135,3 +135,162 @@
     background-color: #D9D9D9;
 
 }
+
+@media only screen and (min-width: 1024px) {
+    .page1 {
+        width: 70vw;
+    }
+}
+
+/* Para dispositivos con una resolución de 960 x 540 px */
+@media only screen and (max-width: 960px) {
+    .left,
+    .right {
+        width: 100%;
+    }
+}
+
+/* Para dispositivos con una resolución de 800 x 600 px */
+@media only screen and (max-width: 800px) {
+    .page1 {
+        width: 90vw;
+    }
+}
+
+/* Para dispositivos con una resolución de 768 x 1024 px o inferior */
+@media only screen and (max-width: 768px) {
+    .page1 {
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+    }
+.left{
+    height: 90%;
+    width: 100%;
+}
+    .right {
+    display: none;
+    }
+
+     .pp{
+        font-size:25px;
+        line-height: 1.2em;
+        width: 80%;
+    
+    }
+
+    .p{
+        margin: auto;
+    }
+
+ .page2{
+    width: 100%;
+ }
+ .services{
+    width: 100%;
+    height: 70%;
+}
+
+.service {
+    width: 80%;
+    margin: auto
+}
+.h3{
+line-height: 1.5em;
+}
+.title2 {
+    width: 100%;
+    line-height: 2em;
+}
+}
+
+/* Para dispositivos con una resolución de 640 x 360 px o inferior */
+@media only screen and (max-width: 640px) {
+    .page1 {
+        width: 100%;
+        height: 95vh;
+    }
+    .right{
+        display: none;
+    }
+
+    .title {
+        margin-top: 10%;
+        
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .pp,
+    .p {
+        width: 80%;
+        margin: auto;
+    }
+    .page2{
+        width: 100%;
+        height: 190vh;
+    }
+    .services{
+        width: 100%;
+        height: 70%;
+    }
+
+    .service {
+        width: 100%;
+    }
+.h3{
+    line-height: 1.5em;
+}
+    .title2 {
+        width: 100%;
+        line-height: 2em;
+    }
+}
+
+/* Para dispositivos con una resolución de 360 x 640 px o inferior */
+@media only screen and (max-width: 376px) {
+    .page1 {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .title {
+        margin-top: 10%;
+        
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .pp,
+    .p {
+        width: 80%;
+        margin: auto;
+    }
+    .page2{
+        width: 100%;
+        height: 190vh;
+    }
+    .services{
+        width: 100%;
+        height: 70%;
+    }
+
+    .service {
+        width: 100%;
+    }
+.h3{
+    line-height: 1.5em;
+}
+    .title2 {
+        width: 100%;
+        line-height: 2em;
+    }
+}
