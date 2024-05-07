@@ -5,7 +5,7 @@
     flex-direction: column;
     padding: 0;
      margin-top: 4%;
-    background-color: rgba(74, 74, 74, 0.781);
+    background-color: #284B63;
 }
 
 .page1{
@@ -38,6 +38,7 @@ display: flex;
     font: 18px;
     line-height: 75px;
     margin-bottom: 20px;
+    color: #76d9df;
 }
 
 .pp{
@@ -71,6 +72,7 @@ display: flex;
     background-color: #E6E6E6;
     padding-top: 8%;
     margin: auto;
+    margin-bottom: 0;
     
 }
 
@@ -97,6 +99,7 @@ display: flex;
 
 .h3{
     text-transform: uppercase;
+    color: #1e3638;
 }
 .title2{
  
@@ -111,7 +114,7 @@ display: flex;
 }
 
 .h2{
-
+color: #1e3638;
 font-size: 40px;
 margin-bottom: 4%;
 text-transform: uppercase;
@@ -120,5 +123,7 @@ text-transform: uppercase;
 .page3{
     width: 100%;
     height: 100vh;
-    background-color: transparent;
+    padding: 2%;
+    background-color: #D9D9D9;
+   
 }
