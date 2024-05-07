@@ -19,7 +19,7 @@
 .banner{
     width: 100%;
     margin: auto;
-    height: 85vh;
+    height: 100vh;
 background-image: linear-gradient(rgba(0, 0, 0, 0.942), rgba(0, 0, 0, 0.662)), url('../../img/teclado.jpg');
 background-repeat: no-repeat;
 background-size: cover;
@@ -47,7 +47,7 @@ background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4%;
+    padding-top: 3%;
 
     box-sizing: border-box;
 
@@ -75,7 +75,8 @@ background-attachment: fixed;
     width: 80%;
     margin: auto;
     height: 20%;
- 
+
+ margin-bottom: 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -142,7 +143,7 @@ background-attachment: fixed;
     background: #0f3a57;
     padding: 2rem 1.5rem;
     transition: box-shadow .3s ease, transform .2s ease;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .cardinfo {
@@ -155,38 +156,38 @@ background-attachment: fixed;
 
 /*Image*/
 .cardavatarAlejo{
-    --size: 150px;
+    --size: 160px;
     background-image: url("https://media.licdn.com/dms/image/D5635AQF0CEvORHLvbw/profile-framedphoto-shrink_800_800/0/1713746730551?e=1715698800&v=beta&t=b_RNJ9Ej1ndoe5Cs9LnliQtK2FuE3gAO5M5P-Ia0oSQ");
     /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
     background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
     background-position: center;
     width: var(--size);
     height: var(--size);
-    border-radius: 30%;
+    border-radius: 50%;
     transition: transform .2s ease;
     margin-bottom: 1rem;
 }
 .cardavatarLudmi {
-    --size: 150px;
+    --size: 160px;
     background-image: url("https://media.licdn.com/dms/image/D4D35AQE6yA9xyXITaw/profile-framedphoto-shrink_800_800/0/1707856835331?e=1715698800&v=beta&t=oSeNWXs6tkSDyQpUChAj1EDGXiNy1_QeWoFUwZ_4f64");
     /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
     background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
     background-position: center;
     width: var(--size);
     height: var(--size);
-    border-radius: 30%;
+    border-radius: 50%;
     transition: transform .2s ease;
     margin-bottom: 1rem;
 }
 .cardavatarKevin{
-    --size: 150px;
+    --size: 160px;
     background-image: url("https://media.licdn.com/dms/image/D4D35AQFiFoRmcz2eCA/profile-framedphoto-shrink_400_400/0/1705512871736?e=1715698800&v=beta&t=4cJtaM7VFC_ReiDZpXri5VjsscuOLx-9QuwFjFVutRg");
     /* background: linear-gradient(to top, #b48629 0%, #fcbc97 100%); */
     background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
     background-position: center;
     width: var(--size);
     height: var(--size);
-    border-radius: 30%;
+    border-radius: 50%;
     transition: transform .2s ease;
     margin-bottom: 1rem;
 }
