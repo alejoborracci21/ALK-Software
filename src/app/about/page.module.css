@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     color: black;
-    background: linear-gradient(to top, #ffffff, #767779);
+    background: linear-gradient(to top, #ffffff, #0f3a57);
 }
 
 .container {
@@ -12,10 +12,12 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
+    background: linear-gradient(to top, #dde6eb, #0f3a57 75%);
+    border-radius:7%;
+
 }
 .banner{
     width: 100%;
-
     margin: auto;
     height: 85vh;
 background-image: linear-gradient(rgba(0, 0, 0, 0.942), rgba(0, 0, 0, 0.662)), url('../../img/teclado.jpg');
@@ -89,12 +91,15 @@ background-attachment: fixed;
 
 }
 .container span{
+
     color: #ffffff;
     font-weight: bold;
+
 }
 
 .texto {
     flex: 1;
+    width: 75%;
     /* Hace que el texto ocupe el espacio restante */
     height: 80%;
     font-size: 18px;
@@ -107,14 +112,15 @@ background-attachment: fixed;
 .imagenAbout {
     border-radius: 100px;
     filter: none;
-    max-width: 30%;
+    max-width: 35%;
     height: auto;
     margin-top: 70px;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
     text-align: center;
-    transform: rotate(90deg);
+    margin-left: -90px;
+    left: -80px;
 }
 
 .galeria {
@@ -133,7 +139,7 @@ background-attachment: fixed;
 .card {
     width: 250px;
     height: 300px;
-    background: #963f3f;
+    background: #0f3a57;
     padding: 2rem 1.5rem;
     transition: box-shadow .3s ease, transform .2s ease;
     border-radius: 5%;
@@ -205,7 +211,7 @@ background-attachment: fixed;
     display: flex;
     height: 30px;
     width: 30px;
-    fill: #05222e;
+    fill: #fdfdfd;
     cursor: pointer;
     transition: fill 0.2s ease, transform 0.2s ease;
 }
@@ -219,7 +225,7 @@ background-attachment: fixed;
 }
 
 .cardtitle span{
-    color: #05222e;
+    color: #188b5b;
 }
 
 .cardsubtitle {
