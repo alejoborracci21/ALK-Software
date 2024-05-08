@@ -332,11 +332,11 @@ line-height: 1.5em;
     }
 }
 
-/* Para dispositivos con una resolución de 360 x 640 px o inferior */
-@media only screen and (max-width: 376px) {
+@media only screen and (min-width: 430px) {
     .page1 {
         width: 100%;
-        height: 90vh;
+        height: 80vh;
+        padding-top: 10vh;
     }
 
     .right{
@@ -344,7 +344,9 @@ line-height: 1.5em;
     }
 
     .title {
-        margin-top: 10%;
+        margin-top: 15%;
+        margin-bottom: 0;
+        padding: 0;
         
     }
 
@@ -354,16 +356,128 @@ line-height: 1.5em;
 
     .pp,
     .p {
-        width: 80%;
-        margin: auto;
+        width: 100%;
+        font-size: 20px;
+        
     }
     .page2{
         width: 100%;
-        height: 190vh;
+        height: 230vh;
+        padding: 2%;
+        box-sizing: border-box;
     }
     .services{
         width: 100%;
-        height: 70%;
+        height: 80%;
+        padding: 4%;
+        box-sizing: border-box;
+    }
+
+    .service {
+        width: 100%;
+    }
+.h3{
+    line-height: 1.5em;
+}
+    .title2 {
+        width: 100%;
+        line-height: 2em;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .page1 {
+        width: 100%;
+        height: 80vh;
+        padding-top: 10vh;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .title {
+        margin-top: 15%;
+        margin-bottom: 0;
+        padding: 0;
+        
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .pp,
+    .p {
+        width: 100%;
+        font-size: 20px;
+        
+    }
+    .page2{
+        width: 100%;
+        height: 230vh;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .services{
+        width: 100%;
+        height: 80%;
+        padding: 4%;
+        box-sizing: border-box;
+    }
+
+    .service {
+        width: 100%;
+    }
+.h3{
+    line-height: 1.5em;
+}
+    .title2 {
+        width: 100%;
+        line-height: 2em;
+    }
+}
+
+/* Para dispositivos con una resolución de 360 x 640 px o inferior */
+@media only screen and (max-width: 376px) {
+    .page1 {
+        width: 100%;
+        height: 110vh;
+        padding-top: 10vh;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .title {
+        margin-top: 15%;
+        margin-bottom: 0;
+        padding: 0;
+        
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .pp,
+    .p {
+        width: 100%;
+        font-size: 20px;
+        
+    }
+    .page2{
+        width: 100%;
+        height: 230vh;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .services{
+        width: 100%;
+        height: 80%;
+        padding: 4%;
+        box-sizing: border-box;
     }
 
     .service {
