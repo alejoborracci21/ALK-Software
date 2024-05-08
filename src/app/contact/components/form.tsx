@@ -10,21 +10,40 @@ interface Mensaje {
   msj: string
 }
 
+const initialState = {
+    name: "",
+    subname: "",
+    email:"",
+    msj: ""
+}
 
 
 export const Form = () => {
 
 
-    const [mensaje, setMensaje] = useState<Mensaje>({
-        name: "",
-        subname: "",
-        email:"",
-        msj: ""
-      })
+    const [mensaje, setMensaje] = useState<Mensaje>(initialState)
     
-      const onSubmit = (evento:any) => {
-        alert("Su mensaje fue enviado correctamente. Te responderemos en menos de 24 horas!")
-      }
+    const onSubmit = (evento:any) => {
+      evento.preventDefault(); // Esto evita que la página se recargue al enviar el formulario
+
+      const formData = new FormData(evento.target); // Crea un objeto FormData con los datos del formulario
+      const formValues: any = {};
+
+      // Itera sobre los campos del formulario y guarda sus valores en formValues
+      formData.forEach((value, key) => {
+        formValues[key] = value;
+      });
+
+      // formValues ahora contiene un objeto con los valores de todos los campos del formulario
+      console.log(formValues);
+
+      // También puedes enviar formValues a través de una solicitud HTTP aquí
+
+      setMensaje(initialState); // Reinicia el estado del formulario
+      alert(
+        "Su mensaje fue enviado correctamente. Te responderemos en menos de 24 horas!"
+      );
+    }
     
       const onChange = (evento:React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLTextAreaElement>) => {
         setMensaje({
