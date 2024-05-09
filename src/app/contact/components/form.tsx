@@ -25,11 +25,7 @@ export const Form = () => {
 
     const formElement = evento.currentTarget;
     sendEmail(formElement);
-
     setMensaje(initialState);
-    alert(
-      "Su mensaje fue enviado correctamente. Te responderemos en menos de 24 horas!"
-    );
   };
 
   const onChange = (
