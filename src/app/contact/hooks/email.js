@@ -9,10 +9,11 @@ export const sendEmail = (form) => {
     })
     .then(
       () => {
-        console.log('SUCCESS!');
+        alert("Su mensaje fue enviado correctamente. Te responderemos en menos de 24 horas!");
       },
       (error) => {
-        console.log('FAILED...', error);
+        console.log(error)
+        alert('Hubo un error al envial el Email, porfavor intentalo de nuevo');
       },
     );
 };
