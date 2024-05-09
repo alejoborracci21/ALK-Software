@@ -51,9 +51,13 @@
     color: white;
 
 }
-
+#par{
+    text-align: center;
+    color: gray;
+    margin-top: 2%;
+}
 .p {
-
+   text-align: left;
     font: 18px;
     line-height: 20px;
     color: gray;
@@ -81,7 +85,7 @@
 
 .services {
     height: 80%;
-
+padding-left: 3%;
     width: 100%;
     margin: auto;
     display: flex;
@@ -136,6 +140,105 @@
 
 }
 
+@media screen and (max-width: 1370px) {
+    .page1 {
+        width:90%;
+        margin-top: 0;
+        padding: 0;
+        height: 130vh;
+    }
+
+    .title h1 {
+        font-size: 11vh;
+        line-height:1em;
+        margin-bottom: 0; 
+    }
+
+
+    .left{
+        width: 50%;
+        height: 90%;
+    }
+
+    .right {
+
+        width: 40%;
+        background-image: url('../img/pngegg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+    
+.pp{
+    
+    font-size: 18px;
+    line-height: 1.5em;
+
+}
+#par{
+    text-align: center;
+    color: gray;
+}
+    .page2{
+        width: 100%;
+        height: 120vh;
+    }
+
+    .h2{
+        text-align: center;
+    }
+    .h3 {
+        line-height: 1em;
+        text-align: left;
+    }
+
+
+}
+
+@media screen and (max-height: 770px) {
+    .page1 {
+        width:90%;
+        height: 120vh;
+        padding-top: 0;
+    }
+
+
+
+
+#par{
+    text-align: center;
+    color: gray;
+    line-height: 2em;
+}
+    .page2{
+        width: 100%;
+        height: 160vh;
+    }
+
+    .h2{
+        text-align: center;
+    }
+    .h3 {
+        line-height: 1em;
+        text-align: left;
+    }
+
+    .p{
+        text-align: left;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .page1 {
+        width:90%;
+        height: 120vh;
+        padding-top: 0;
+    }
+
+
+}
+
 
 
 @media only screen and (max-width: 1024px) {
@@ -158,10 +261,11 @@ display: none;
     .left{
         width: 80%;
         height: 100%;
+        margin: auto;
     }
 .pp{
     
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5em;
 
 }
@@ -184,10 +288,22 @@ display: none;
 }
 
 @media only screen and (max-width: 960px) {
+   .page1{
+    padding: 0;
+    width: 80%;
+   }
+
+   .title{
+    margin-top: 0;
+   }
     .left,
     .right {
         width: 100%;
      
+    }
+
+    .title h1{
+        font-size: 10vh;
     }
 
     .left{height: 60%;
@@ -200,13 +316,14 @@ display: none;
     }
     .pp{
         height: 50%;
-        font-size: 25px;
+        font-size: 18px;
         line-height: 1.5em;
+        margin-top: 30%;
     }
 
     .page2{
         width: 100%;
-        height: 120vh;
+        height: 250vh;
     }
 .h2{
     line-height: 1.5em;
@@ -234,9 +351,54 @@ display: none;
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 890px) {
     .page1 {
-        width: 100vw;
+        width: 100%;
+        height: 100vh;
+       
+    }
+
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .pp,
+    .p {
+        width: 100%;
+        font-size: 18px;
+        
+    }
+  
+    .page2{
+        width: 100%;
+        height: 230vh;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .services{
+        width: 100%;
+        height: 80%;
+        padding: 4%;
+        box-sizing: border-box;
+    }
+
+    .service {
+        width: 100%;
+    }
+.h3{
+    line-height: 1.5em;
+}
+    .title2 {
+        width: 100%;
+        line-height: 2em;
     }
 }
 
@@ -256,9 +418,10 @@ display: none;
     }
 
      .pp{
-        font-size:25px;
+        font-size:18px;
         line-height: 1.2em;
         width: 80%;
+  
     
     }
 
@@ -291,14 +454,129 @@ line-height: 1.5em;
 @media only screen and (max-width: 640px) {
     .page1 {
         width: 100%;
-        height: 95vh;
+        height: 100vh;
     }
     .right{
         display: none;
     }
 
     .title {
+        margin-top: 0;
+        
+    }
+
+    .title h1 {
+        font-size: 11vh;
+        width: 80%;
+        margin: auto;
+    }
+
+    .pp,
+    .p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .pp{
+        margin-top: 15%;
+        font-size: 18px;
+    }
+    .page2{
+        width: 100%;
+        height: 250vh;
+    }
+    .services{
+        width: 100%;
+        height: 70%;
+        margin-top: 5%;
+    }
+
+    .service {
+        width: 100%;
+    }
+.h3{
+    line-height: 1.5em;
+}
+    .title2 {
+        width: 100%;
+        line-height: 2em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .page1 {
+        width: 100%;
+        height: 100vh;
+        padding-top: 10vh;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .title {
         margin-top: 10%;
+        margin-bottom: 0;
+        padding: 0;
+        
+    }
+
+    .title h1 {
+        font-size: 7vh;
+        padding: 3%;
+    }
+
+    .pp,
+    .p {
+        width: 100%;
+        font-size: 18px;
+        
+    }
+    .page2{
+        width: 100%;
+        height: 230vh;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .services{
+        width: 100%;
+        height: 75%;
+margin-top: 10%;
+        padding: 4%;
+        box-sizing: border-box;
+    }
+
+    .service {
+        width: 100%;
+    }
+    .h2{
+        line-height: 0.9em;
+        text-align: center;
+    }
+    .h3{
+    line-height: 1.5em;
+}
+    .title2 {
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .page1 {
+        width: 100%;
+        height: 100vh;
+        padding-top: 10vh;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
         
     }
 
@@ -309,118 +587,21 @@ line-height: 1.5em;
     .pp,
     .p {
         width: 80%;
-        margin: auto;
+        font-size: 18px;
+        
+    }
+    .pp{
+        margin-top: 12%
     }
     .page2{
         width: 100%;
-        height: 190vh;
-    }
-    .services{
-        width: 100%;
-        height: 70%;
-    }
-
-    .service {
-        width: 100%;
-    }
-.h3{
-    line-height: 1.5em;
-}
-    .title2 {
-        width: 100%;
-        line-height: 2em;
-    }
-}
-
-@media only screen and (min-width: 430px) {
-    .page1 {
-        width: 100%;
-        height: 80vh;
-        padding-top: 10vh;
-    }
-
-    .right{
-        display: none;
-    }
-
-    .title {
-        margin-top: 15%;
-        margin-bottom: 0;
-        padding: 0;
-        
-    }
-
-    .title h1 {
-        font-size: 50px;
-    }
-
-    .pp,
-    .p {
-        width: 100%;
-        font-size: 20px;
-        
-    }
-    .page2{
-        width: 100%;
-        height: 230vh;
+        height: 270vh;
         padding: 2%;
         box-sizing: border-box;
     }
     .services{
         width: 100%;
-        height: 80%;
-        padding: 4%;
-        box-sizing: border-box;
-    }
-
-    .service {
-        width: 100%;
-    }
-.h3{
-    line-height: 1.5em;
-}
-    .title2 {
-        width: 100%;
-        line-height: 2em;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .page1 {
-        width: 100%;
-        height: 80vh;
-        padding-top: 10vh;
-    }
-
-    .right{
-        display: none;
-    }
-
-    .title {
-        margin-top: 15%;
-        margin-bottom: 0;
-        padding: 0;
-        
-    }
-
-    .title h1 {
-        font-size: 50px;
-    }
-
-    .pp,
-    .p {
-        width: 100%;
-        font-size: 20px;
-        
-    }
-    .page2{
-        width: 100%;
-        height: 230vh;
-        padding: 2%;
-        box-sizing: border-box;
-    }
-    .services{
-        width: 100%;
+        margin-top: 10%;
         height: 80%;
         padding: 4%;
         box-sizing: border-box;
@@ -443,7 +624,7 @@ line-height: 1.5em;
     .page1 {
         width: 100%;
         height: 110vh;
-        padding-top: 10vh;
+        padding-top: 0;
     }
 
     .right{
@@ -451,7 +632,7 @@ line-height: 1.5em;
     }
 
     .title {
-        margin-top: 15%;
+        margin-top: 0;
         margin-bottom: 0;
         padding: 0;
         
@@ -464,12 +645,12 @@ line-height: 1.5em;
     .pp,
     .p {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         
     }
     .page2{
         width: 100%;
-        height: 230vh;
+        height: 270vh;
         padding: 2%;
         box-sizing: border-box;
     }
@@ -548,7 +729,7 @@ line-height: 1.5em;
 @media only screen and (max-width: 320px) {
     .page1 {
         width: 100vw;
-        height: 110vh;
+        height: 130vh;
         padding-top: 10vh;
     }
 

@@ -19,7 +19,7 @@ export default function Landing() {
         <div className={styles.page2}>
           <div className={styles.title2}>
             <h2 className={styles.h2}>Servicios de Software</h2>
-            <p className={styles.p}>Desarrollando Software a tu Medida con Tecnología Avanzada y Experiencia UX/UI</p>
+            <p id={styles.par}>Desarrollando Software a tu Medida con Tecnología Avanzada y Experiencia UX/UI</p>
           </div>
 
           <div className={styles.services}>
