@@ -20,7 +20,7 @@ export default function RootLayout({
 
       <body className={inter.className}>
         <nav className={styles.navbar}>
-          <div className={styles.logo}>ALK</div>
+          <div className={styles.logo}></div>
           <Link href={"/"} className={styles.link}>
             <button className={styles.button}>Inicio</button>
           </Link>

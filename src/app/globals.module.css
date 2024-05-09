@@ -20,7 +20,7 @@
 }
 
 .logo {
-  width: 7%;
+  width: 8%;
   height: 100%;
   position: absolute;
   top: 5;
@@ -33,10 +33,11 @@
   padding: auto;
   text-align: center;
   box-sizing: border-box;
-  background-image: url('../img/Circulo.png');
+  background-image: url('../img/ALK2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  filter: drop-shadow(5px 6px 9px #000000bd);
 }
 
 .children {
