@@ -9,23 +9,25 @@
 
 .container {
     margin: 0 auto;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to top, #feffff, #8f8f8f);
 }
 
 .form {
-    width: 800px;
-    height: 600px;
+    width: 700px; /* Cambiado a porcentaje */
+    max-width: 800px; /* Establecer un ancho máximo */
+    height: auto; /* Altura automática basada en el contenido */
     background-image: linear-gradient(to bottom, #424242, #212121);
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 0.5rem;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 2rem; /* Espacios interiores ajustados */
+    box-sizing: border-box;
 }
-
 
 .title {
     color: wheat;
