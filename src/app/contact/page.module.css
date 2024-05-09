@@ -1,45 +1,90 @@
-.page{
+.page {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to top, #feffff, #3f4146ad);
 }
 
-.container{
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #feffff, #8f8f8f);
+}
+
+.form {
+    width: 800px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, #424242, #212121);
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 3%;
-    width: 60%;
-    height: 80%;
-    background-color: rgba(46, 46, 46, 0.834);
-}
-
-.form{
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    width: 90%;
+    border-radius: 0.5rem;
+    justify-content: space-around;
 }
 
-.label{
+
+.title {
+    color: wheat;
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+
+.label {
     width: 50%;
     height: 10px;
     margin-bottom: 10%;
 }
 
-.input{
-    margin-left: 15px;
-    right: 0;
+.input {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 20rem;
+    background-color: inherit;
+    color: wheat;
+    border: none;
+    outline: none;
+
 }
 
-.button{
-    width: 10%;
-    height: 6%;
-    border-radius: 5px;
-    border: transparent;
+.username {
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+}
+
+.username:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.email {
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+}
+
+.email:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btn {
+    height: 3rem;
+    width: 20rem;
+    margin-top: 3rem;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    transition: all 400ms;
+    box-shadow: 0 0 10px antiquewhite, 0 0 10px antiquewhite;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+    box-shadow: none;
 }
