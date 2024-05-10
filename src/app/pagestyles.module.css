@@ -147,7 +147,9 @@ padding-left: 3%;
         padding: 0;
         height: 130vh;
     }
-
+.title{
+    margin-top: 0;
+}
     .title h1 {
         font-size: 11vh;
         line-height:1em;
