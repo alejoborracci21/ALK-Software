@@ -9,14 +9,15 @@
 
 .container {
     margin: 0 auto;
-    display: inline-flex;
+    height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top, #feffff, #8f8f8f);
+    /* background: linear-gradient(to top, #feffff, #8f8f8f); */
 }
 
 .form {
-    width: 700px; /* Cambiado a porcentaje */
+    width: 70vw; /* Cambiado a porcentaje */
     max-width: 800px; /* Establecer un ancho máximo */
     height: auto; /* Altura automática basada en el contenido */
     background-image: linear-gradient(to bottom, #424242, #212121);
@@ -27,6 +28,7 @@
     justify-content: flex-start;
     padding: 2rem; /* Espacios interiores ajustados */
     box-sizing: border-box;
+    height: 75%;
 }
 
 .title {
