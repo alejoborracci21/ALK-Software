@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   line-height: 0;
-  background-color: rgba(230, 230, 230, 0.739);
+  background-color: black;
 }
 
 
@@ -272,4 +272,10 @@
 
 .my-float {
   margin-top: 16px;
+}
+
+@media screen and (orientation:portrait) and (max-width:360px) {
+  /* .navbar{
+    display: none;
+  } */
 }
