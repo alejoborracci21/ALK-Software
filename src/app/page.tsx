@@ -1,3 +1,4 @@
+import { Form } from "./contact/components/form";
 import styles from "./pagestyles.module.css"
 
 export default function Landing() {
@@ -36,17 +37,17 @@ export default function Landing() {
             <div className={styles.service}>
               <h3 className={styles.h3}>Desarrollo de Sistemas de Gestión Empresarial (ERP)</h3>
               <p className={styles.p}>Diseño e implementación de sistemas de gestión empresarial completos que abarcan áreas como contabilidad, recursos humanos, inventario y ventas.
-Personalización para adaptarse a las operaciones específicas de cada cliente y mejorar la eficiencia y la productividad.</p>
+                Personalización para adaptarse a las operaciones específicas de cada cliente y mejorar la eficiencia y la productividad.</p>
             </div>
             <div className={styles.service}>
               <h3 className={styles.h3}>Desarrollo de Aplicaciones Móviles</h3>
               <p className={styles.p}>Creación de aplicaciones móviles personalizadas para iOS y Android que brinden experiencias de usuario intuitivas y funcionales.
-Desarrollo de aplicaciones tanto para uso interno de la empresa como para llegar a clientes externos, según las necesidades del cliente.</p>
+                Desarrollo de aplicaciones tanto para uso interno de la empresa como para llegar a clientes externos, según las necesidades del cliente.</p>
             </div>
           </div>
         </div>
         <div className={styles.page3}>
-          <p>Section 3</p>
+          <Form />
         </div>
       </div>
     </main>
