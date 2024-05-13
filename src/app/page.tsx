@@ -1,6 +1,6 @@
 import { Form } from "./contact/components/form";
 import styles from "./pagestyles.module.css"
-
+import Contratanos from './contratanos/Contratanos'
 export default function Landing() {
   return (
     <main className={styles.main}>
@@ -46,9 +46,12 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <div className={styles.page3}>
-          <Form />
+        <div>
+          <Contratanos />
         </div>
+        {/* <div className={styles.page3}>
+          <Form />
+        </div> */}
       </div>
     </main>
   );
