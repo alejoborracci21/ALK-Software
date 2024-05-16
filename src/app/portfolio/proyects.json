@@ -1,0 +1,24 @@
+{
+    "proyects": [
+        {
+            "name": "wearfashion",
+            "image": "urlimage",
+            "description": "description of the proyect"
+        },
+        {
+            "name": "pikevin",
+            "image": "urlimage",
+            "description": "description of the proyect"
+        },
+        {
+            "name": "piludmi",
+            "image": "urlimage",
+            "description": "description of the proyect"
+        },
+        {
+            "name": "pialejo",
+            "image": "urlimage",
+            "description": "description of the proyect"
+        }
+    ]
+}
