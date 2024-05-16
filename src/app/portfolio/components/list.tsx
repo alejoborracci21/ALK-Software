@@ -20,7 +20,7 @@ export const ListProyect = () => {
         <div>{proyects.map((p:any) => 
         <div className={styles.proyect}>
             <h1 className={styles.name}>{p.name}</h1>
-            <h1 className={styles.description}>{p.description}</h1>
+            <p className={styles.description}>{p.description}</p>
             <h1 className={styles.image}>{p.image}</h1>
         </div>)}</div>
       </div>
