@@ -1,9 +1,9 @@
 {
     "proyects": [
         {
-            "name": "wearfashion",
+            "name": "Wearfashion",
             "image": "urlimage",
-            "description": "description of the proyect"
+            "description": "Wearfashion es un E-commerce de ropa urbana donde se muestran los diferentes productos añadidos por los administradores donde el usuario puede filtrarlos para una busqueda especifica y ver los detalles del producto. Los usuarios tienen la posibilidad de registrarse para acceder a la posibilidad de comprar un producto, a la hora de comprar implementamos una pasarela de pagos con Paypal."
         },
         {
             "name": "pikevin",
