@@ -1654,7 +1654,7 @@ display: none;
     
     .page1 {
         width: 100%;
-        height: 125vh;
+        height: 100vh;
         margin: auto;
         display: flex;
         box-sizing: border-box;
@@ -1800,7 +1800,7 @@ display: none;
     
     .page1 {
         width: 90%;
-        height: 110vh;
+        height: 100vh;
         margin: auto;
         display: flex;
         box-sizing: border-box;
@@ -3062,6 +3062,27 @@ display: none;
     }
     .right{
      display: none;
+    }
+
+    .h3{
+        line-height: 1.5em
+    }
+  }
+
+  @media only screen and (max-height: 1080px) and (orientation: landscape) {
+    .page1{
+        height: 100vh;
+    }
+    .left{
+        height: 100%;
+    
+    }
+
+    .title h1{
+        line-height: 100%
+    }
+    .right{
+    width: 50%;
     }
 
     .h3{
