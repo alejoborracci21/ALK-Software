@@ -38,7 +38,7 @@
 
 .title h1 {
     height: 80%;
-    font-size: 7vw;
+    font-size: 6.5vw;
     line-height: 0.8;
     margin-bottom: 20px;
     color: #76d9df;
@@ -77,9 +77,9 @@
 
 .page2 {
     width: 98.9vw;
-    height: 110vh;
+    height: 115vh;
     background-color: #E6E6E6;
-    padding-top: 8%;
+    padding-top: 5%;
     margin: auto;
     margin-bottom: 0;
 
@@ -1567,6 +1567,7 @@ display: none;
         color: gray;
         margin-top: 2%;
         font-size: 20px;
+        line-height: 1em;
     }
     .p {
        text-align: left;
