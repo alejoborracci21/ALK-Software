@@ -3027,109 +3027,13 @@ display: none;
     }
   }
 
-  @media only screen and (max-height: 350px) and (orientation: portrait) {
-    .page1{
-        height: 350vh;
-    }
-    .left{
-        height: 70%;
-        width: 80%;
-    }
-    .right{
-      display: none;
-    }
-
-    .h3{
-        line-height: 1.5em
-    }
-
-    .page2{
-        height: 590vh;
-    }
-  }
   
-  @media only screen and (max-height: 900px) and (orientation: portrait) {
-    .page1{
-        height: 150vh;
-    }
-    .left{
-        height: 100%;
-    
-    }
+  
+  
 
-    .title h1{
-        line-height: 100%
-    }
-    .right{
-     display: none;
-    }
-
-    .h3{
-        line-height: 1.5em
-    }
-  }
-
-  @media only screen and (max-height: 1080px) and (orientation: landscape) {
-    .page1{
-        height: 100vh;
-    }
-    .left{
-        height: 100%;
-    
-    }
-
-    .title h1{
-        line-height: 100%
-    }
-    .right{
-    width: 50%;
-    }
-
-    .h3{
-        line-height: 1.5em
-    }
-  }
-
-  @media only screen and (max-height: 900px) and (orientation: landscape) {
-    .page1{
-        height: 150vh;
-    }
-    .left{
-        height: 100%;
-    
-    }
-
-    .title h1{
-        line-height: 100%
-    }
-    .right{
-    width: 50%;
-    }
-
-    .h3{
-        line-height: 1.5em
-    }
-  }
-  @media only screen and (max-height: 800px) and (orientation: landscape) {
-    .page1{
-        height: 150vh;
-    }
-    .left{
-        height: 100%;
-    }
-    .right{
-        padding-top: 20%;
-        box-sizing: border-box;
-    }
-
-    .h3{
-        line-height: 1.5em
-    }
-
-    .title h1{
-        font-size: 6vw;
-    }
-  }
+  
+  
+ 
   @media only screen and (max-height: 630px) and (orientation: landscape) {
     .page1{
         height: 150vh;
