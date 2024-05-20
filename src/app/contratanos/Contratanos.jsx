@@ -6,7 +6,7 @@ function Contratanos() {
             <div className='page'>
                 <div className='title'>
                     <h2 className='h2'>Ventajas De Contratarnos</h2>
-                    <p id='par'>Porque Buscamos Nuestra Primera Chambaaa</p>
+                    
                 </div>
 
                 <div className='services'>
