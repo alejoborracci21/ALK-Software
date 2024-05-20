@@ -4,7 +4,7 @@
 import styles from "../page.module.css";
 import { useState } from "react";
 import { sendEmail } from "../hooks/email.js";
-
+import chicapc from '../../../img/Chicapc.png'
 interface Mensaje {
   user_name: string;
   user_email: string;
@@ -39,13 +39,14 @@ export const Form = () => {
 
   return (
     <div className={styles.container}>
+
       <form onSubmit={onSubmit} className={styles.form}>
+        <p className={styles.title}>Contactanos</p>
         <label className={styles.label}>
-          Nombre:
           <input
             name="user_name"
             onChange={onChange}
-            className={styles.input}
+            className={`${styles.input} ${styles.username}`}
             type="text"
             value={mensaje.user_name}
             placeholder="Nombre completo"
@@ -53,11 +54,10 @@ export const Form = () => {
         </label>
 
         <label className={styles.label}>
-          Email:
           <input
             name="user_email"
             onChange={onChange}
-            className={styles.input}
+            className={`${styles.input} ${styles.email}`}
             type="email"
             value={mensaje.user_email}
             placeholder="Tu Email"
@@ -65,20 +65,20 @@ export const Form = () => {
         </label>
 
         <label className={styles.label}>
-          Dejanos tu consulta:
           <textarea
             name="message"
             onChange={onChange}
-            className={styles.input}
+            className={`${styles.input} ${styles.email}`}
             value={mensaje.message}
             placeholder="Deje aqui su mensaje"
           ></textarea>
         </label>
 
-        <button className={styles.button} type="submit">
+        <button className={styles.btn} type="submit">
           Enviar
         </button>
       </form>
+     
     </div>
   );
 };

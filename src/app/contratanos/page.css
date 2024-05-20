@@ -1,0 +1,92 @@
+.page {
+    width: 100%;
+    height: 100%;
+    background-color: #2c5979ce;
+    padding-top: 8%;
+    margin: auto;
+    margin-bottom: 0;
+
+}
+
+.services {
+    height: 80%;
+    padding-left: 3%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+    box-sizing: border-box;
+}
+
+.service {
+    height: 30%;
+    width: 35%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.h3 {
+    text-transform: uppercase;
+    color: #70c7d3;
+    line-height: 1em;
+    text-align: left;
+}
+
+.title {
+    width: 60%;
+    text-align: center;
+    height: 15%;
+    box-sizing: border-box;
+    padding: 1%;
+    margin: auto;
+}
+
+.h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 4%;
+    text-transform: uppercase;
+    display: flexbox;
+    flex: 1;
+}
+
+.title {
+    margin-top: 10%;
+    font-size: 40px;
+    height: 55%;
+}
+
+.title h1 {
+    height: 80%;
+    font-size: 7vw;
+    line-height: 0.8;
+    margin-bottom: 20px;
+    color: #76d9df;
+}
+
+.pp {
+
+    font-size: 20px;
+    line-height: 1.5em;
+    color: white;
+    width: 90%;
+
+}
+#par{
+    text-align: center;
+    color: rgb(211, 208, 208);
+    margin-top: 2%;
+    font-size: 20px;
+}
+.p {
+   text-align: left;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: rgb(238, 233, 233);
+    width: 90%;
+
+}

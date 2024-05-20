@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import styles from "./globals.module.css";
+import { Form } from "./contact/components/form";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -72,6 +73,7 @@ export default function RootLayout({
             ></path>
           </svg>
         </a>
+       
         <footer className={styles.footer}>
           <ul className={styles.example}>
             <li className={styles.iconcontent}>
