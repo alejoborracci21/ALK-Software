@@ -1502,7 +1502,7 @@ display: none;
     }
     
     .page1 {
-        width: 100%;
+        width: 98%;
         height: 100vh;
         margin: auto;
         display: flex;
@@ -3027,12 +3027,6 @@ display: none;
     }
   }
 
-  
-  
-  
-
-  
-  
  
   @media only screen and (max-height: 630px) and (orientation: landscape) {
     .page1{
