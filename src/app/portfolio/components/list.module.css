@@ -1,0 +1,52 @@
+.container {
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.proyect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el nombre */
+}
+
+.name {
+    margin: 0; /* Quita márgenes adicionales */
+    margin-top: 10px; /* Pequeño margen superior */
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.text {
+    width: 100%;
+    font-size: 18px;
+    line-height: 20px;
+    background-color: brown;
+    padding: 10px;
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
+}
+
+.description {
+    margin: 0;
+}
