@@ -44,6 +44,16 @@ export default function Landing() {
               <p className={styles.p}>Creación de aplicaciones móviles personalizadas para iOS y Android que brinden experiencias de usuario intuitivas y funcionales.
                 Desarrollo de aplicaciones tanto para uso interno de la empresa como para llegar a clientes externos, según las necesidades del cliente.</p>
             </div>
+            <div className={styles.service}>
+              <h3 className={styles.h3}>Desarrollo de Aplicaciones Móviles</h3>
+              <p className={styles.p}>Creación de aplicaciones móviles personalizadas para iOS y Android que brinden experiencias de usuario intuitivas y funcionales.
+                Desarrollo de aplicaciones tanto para uso interno de la empresa como para llegar a clientes externos, según las necesidades del cliente.</p>
+            </div>
+            <div className={styles.service}>
+              <h3 className={styles.h3}>Desarrollo de Aplicaciones Móviles</h3>
+              <p className={styles.p}>Creación de aplicaciones móviles personalizadas para iOS y Android que brinden experiencias de usuario intuitivas y funcionales.
+                Desarrollo de aplicaciones tanto para uso interno de la empresa como para llegar a clientes externos, según las necesidades del cliente.</p>
+            </div>
           </div>
         </div>
         <div>
