@@ -1,6 +1,6 @@
 import styles from "./list.module.css";
 import proyectos from "../proyects.json";
-import wearfashion from "./wearfashion.jpg";
+
 
 interface Proyecto {
   name: string;
