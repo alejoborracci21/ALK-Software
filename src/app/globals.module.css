@@ -273,9 +273,26 @@
 .my-float {
   margin-top: 16px;
 }
+@media screen and (orientation: portrait) and (max-width: 960px) {
+  .html body {
+    width: 100vh;
+  }
+}
 
+@media screen and (orientation: portrait) and (max-width: 550px) {
+  .html body {
+    width: 100vh;
+  }
+}
+
+@media screen and (orientation: portrait) and (max-width: 450px) {
+  .html body {
+    width: 100vh;
+  }
+}
 @media screen and (orientation:portrait) and (max-width:360px) {
-  /* .navbar{
-    display: none;
-  } */
+  .html body {
+    width: 100vh;
+  }
+
 }

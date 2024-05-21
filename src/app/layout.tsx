@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Link from "next/link";
 import styles from "./globals.module.css";
 import { Form } from "./contact/components/form";
+import Navbar from "./navbar/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,7 @@ export default function RootLayout({
       <head></head>
 
       <body className={inter.className}>
-        <nav className={styles.navbar}>
+        {/* <nav className={styles.navbar}>
           <div className={styles.logo}></div>
           <Link href={"/"} className={styles.link}>
             <button className={styles.button}>Inicio</button>
@@ -34,7 +35,8 @@ export default function RootLayout({
           <Link href={"/contact"} className={styles.link}>
             <button className={styles.button}>Contacto</button>
           </Link>
-        </nav>
+        </nav> */}
+        <Navbar/>
 
         <div className={styles.sections}>{children}</div>
 

@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 
 export default function About() {
   return (
-    <main className={styles.page}>
-      <div className={styles.container}>
+    <main id="nosotros" className={styles.page}>
+      <div id="nosotros" className={styles.container}>
         <div className={styles.banner}>
           <div className={styles.text}>
 
