@@ -739,12 +739,12 @@ padding-left: 3%;
     .title {
         margin-top: 15%;
         
-        height: 30%;
+        height: auto;
     }
     
     .title h1 {
 
-        font-size: 10vw;
+        font-size: 15vw;
         line-height: 1em;
         margin-bottom: 10%;
         color: #76d9df;
@@ -753,32 +753,19 @@ padding-left: 3%;
     
     .pp {
     
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.5em;
         color: white;
         width: 80%;
         margin-top: 10%;
     
     }
-    #par{
-        text-align: center;
-        color: gray;
-        margin-top: 2%;
-        font-size: 15px;
-    }
-    .p {
-       text-align: left;
-        font-size: 15px;
-        line-height: 20px;
-        color: gray;
-        width: 100%;
-    
-    }
+
     
   
     
     .page2 {
-        width: 100%;
+        width: 90%;
         height: auto;
         background-color: #E6E6E6;
         padding-top: 8%;
@@ -791,12 +778,12 @@ padding-left: 3%;
         text-align: center;
         color: gray;
         margin-top: 2%;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.3em;
     }
     .p {
         text-align: left;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1em;
         color: gray;
         width: 90%;
@@ -812,7 +799,7 @@ padding-left: 3%;
        flex-direction: column;
        flex-wrap: nowrap;
         justify-content: center;
-        margin-top: 20%;
+        margin-top: auto;
         box-sizing: border-box;
     }
     
@@ -873,7 +860,7 @@ padding-left: 3%;
     
     .page1 {
         width: 100%;
-        height: 100vh;
+        height: auto;
         margin: auto;
         display: flex;
         box-sizing: border-box;
@@ -903,34 +890,21 @@ padding-left: 3%;
     
     .title h1 {
     
-        font-size: 12vw;
+        font-size: 15vw;
         line-height: 1em;
         color: #76d9df;
     }
     
     .pp {
     
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.5em;
         color: white;
         width: 80%;
       
     
     }
-    #par{
-        text-align: center;
-        color: gray;
-        margin-top: 2%;
-        font-size: 15px;
-    }
-    .p {
-       text-align: left;
-        font-size: 15px;
-        line-height: 20px;
-        color: gray;
-        width: 100%;
-    
-    }
+
     
   
     
@@ -948,12 +922,12 @@ padding-left: 3%;
         text-align: center;
         color: gray;
         margin-top: 2%;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.3em;
     }
     .p {
         text-align: left;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1em;
         color: gray;
         width: 90%;
@@ -963,13 +937,13 @@ padding-left: 3%;
     .services {
     
         height: 80%;
-        width: 100%;
+        width: auto;
         margin: auto;
         display: flex;
        flex-direction: column;
        flex-wrap: nowrap;
         justify-content: center;
-        margin-top: 20%;
+        margin-top: auto;
         box-sizing: border-box;
     }
     
@@ -1033,8 +1007,8 @@ padding-left: 3%;
 
     
     .page1 {
-        width: 100%;
-        height: 100vh;
+        width: auto;
+        height: auto;
         margin: auto;
         display: flex;
         box-sizing: border-box;
@@ -1065,14 +1039,14 @@ padding-left: 3%;
     
     .title h1 {
     
-        font-size: 13vw;
+        font-size: 15vw;
         line-height: 1em;
         color: #76d9df;
     }
     
     .pp {
     
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.5em;
         color: white;
         width: 80%;
@@ -1082,11 +1056,12 @@ padding-left: 3%;
         text-align: center;
         color: gray;
         margin-top: 2%;
-        font-size: 10px;
+        font-size: 20px;
+        line-height: 1.3em;
     }
     .p {
        text-align: left;
-        font-size: 10px;
+        font-size: 20px;
         line-height: 1em;
         color: gray;
         width: 100%;
@@ -1096,7 +1071,7 @@ padding-left: 3%;
   
     
     .page2 {
-        width: 100%;
+        width: auto;
         height: auto;
         background-color: #E6E6E6;
         padding-top: 8%;
@@ -1105,16 +1080,9 @@ padding-left: 3%;
     
     }
 
-    #par{
-        text-align: center;
-        color: gray;
-        margin-top: 2%;
-        font-size: 15px;
-        line-height: 1.3em;
-    }
     .p {
         text-align: left;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1em;
         color: gray;
         width: 90%;
@@ -1130,7 +1098,7 @@ padding-left: 3%;
        flex-direction: column;
        flex-wrap: nowrap;
         justify-content: center;
-        margin-top: 20%;
+        margin-top: auto;
         box-sizing: border-box;
     }
     
