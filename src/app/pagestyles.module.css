@@ -1190,7 +1190,7 @@ padding-left: 3%;
     
     }
     .right{
-        height: 80%;
+        height: 100%;
     }
     .title {
         margin-top: 10%;
@@ -1484,16 +1484,16 @@ padding-left: 3%;
     
     .page1 {
         width: 98vw;
-        height: 100vh;
+        height: auto;
         margin: auto;
         display: flex;
-        flex-direction: column;
+        
         box-sizing: border-box;
         flex-wrap: nowrap;
     }
     .right {
         width: 50%;
-        height: 35%;
+        height: 100%;
      margin-bottom: 5%;
         box-sizing: border-box;
     }
@@ -1503,7 +1503,7 @@ padding-left: 3%;
         margin: auto;
         margin-top: 5%;
         color: white;
-        padding: 0;
+        padding: 3%;
         height: 100%;
     }
 
@@ -1512,7 +1512,7 @@ padding-left: 3%;
     .title {
         margin-top: 10%;
         font-size: 40px;
-        height: 15%;
+        height: auto;
     }
     
     .title h1 {
@@ -1546,15 +1546,11 @@ padding-left: 3%;
     
     }
     
-    .right {
-
-      
-    
-    }
+ 
     
     .page2 {
         width:100% ;
-        height: 270vh;
+        height: auto;
         background-color: #E6E6E6;
         padding-top: 8%;
         margin: auto;
@@ -1612,6 +1608,7 @@ padding-left: 3%;
         text-transform: uppercase;
         display: flexbox;
         flex: 1;
+        line-height: 1em;
     }
     
     
