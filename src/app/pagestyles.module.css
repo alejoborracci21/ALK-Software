@@ -1003,7 +1003,7 @@ padding-left: 3%;
 /* Para 470px */
 
 
-@media (max-width: 370px) and (orientation: portrait) {
+@media (max-width: 380px) and (orientation: portrait) {
 
     
     .page1 {
@@ -1061,7 +1061,7 @@ padding-left: 3%;
     }
     .p {
        text-align: left;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 1em;
         color: gray;
         width: 100%;
@@ -1241,7 +1241,7 @@ padding-left: 3%;
     
     .page2 {
         width: 98vw;
-        height: 190vh;
+        height: auto;
         background-color: #E6E6E6;
         padding-top: 8%;
         margin: auto;
@@ -1328,7 +1328,7 @@ padding-left: 3%;
     
     .page1 {
         width: 90%;
-        height: 90vh;
+        height: auto;
         margin: auto;
         display: flex;
         
@@ -1355,7 +1355,7 @@ padding-left: 3%;
     .title {
         margin-top: 10%;
         font-size: 40px;
-        height: 15%;
+        height: auto;
     }
     
     .title h1 {
@@ -1399,7 +1399,7 @@ padding-left: 3%;
     
     .page2 {
         width:100% ;
-        height: 270vh;
+        height: auto;
         background-color: #E6E6E6;
         padding-top: 8%;
         margin: auto;
@@ -1483,7 +1483,7 @@ padding-left: 3%;
     }
     
     .page1 {
-        width: 90%;
+        width: 98vw;
         height: 100vh;
         margin: auto;
         display: flex;
@@ -1547,11 +1547,8 @@ padding-left: 3%;
     }
     
     .right {
-        background-image: url('../img/pngegg.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 50%;
+
+      
     
     }
     
@@ -1642,7 +1639,7 @@ padding-left: 3%;
     
     .page1 {
         width: 90%;
-        height: 100vh;
+        height: auto;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -1672,7 +1669,6 @@ padding-left: 3%;
     
     .title {
         margin-top: 10%;
-        font-size: 7vw;
         height:auto;
     }
     
@@ -1686,7 +1682,7 @@ padding-left: 3%;
     
     .pp {
     
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.5em;
         color: white;
         width: 90%;
@@ -1717,7 +1713,7 @@ padding-left: 3%;
     
     .page2 {
         width:100% ;
-        height: 300vh;
+        height: auto;
         background-color: #E6E6E6;
         padding-top: 8%;
         margin: auto;
@@ -1775,6 +1771,7 @@ padding-left: 3%;
         text-transform: uppercase;
         display: flexbox;
         flex: 1;
+        line-height: 1.5em;
     }
     
     
@@ -2256,7 +2253,7 @@ display: none;
     
     .page1 {
         width: 100%;
-        height: 150vh;
+        height: auto;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -2268,11 +2265,11 @@ display: none;
     }
     
     .left {
-        width: 80%;
+        width: 100%;
         margin: auto;
         margin-top: 5%;
         color: white;
-        padding: 0;
+        padding: auto;
         height: 100%;
     }
 
@@ -2280,12 +2277,12 @@ display: none;
     
     .title {
         margin-top: 10%;
-        font-size: 40px;
-        height: 15%;
+         height: auto;
+         width: 100%;
     }
     
     .title h1 {
-        height: 80%;
+        height: auto;
 
         font-size: 11vw;
         line-height: 1em;
@@ -2295,7 +2292,7 @@ display: none;
     
     .pp {
     
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.5em;
         color: white;
         width: 100%;
@@ -2305,11 +2302,11 @@ display: none;
         text-align: center;
         color: gray;
         margin-top: 2%;
-        font-size: 15px;
+        font-size: 20px;
     }
     .p {
        text-align: left;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.5em;
         color: gray;
         width: 90%;
@@ -2323,7 +2320,7 @@ display: none;
     
     .page2 {
         width:100% ;
-        height: 750vh;
+        height: auto;
         background-color: #E6E6E6;
         padding-top: 8%;
         margin: auto;
@@ -2396,40 +2393,11 @@ display: none;
 
 
 
-  @media only screen and (max-height: 630px) and (orientation: landscape) {
-    .page1{
-        height: 150vh;
-        display: flex;
-        flex-direction: row;
-    }
-    .left{
-        height: 100%;
-        width: 80%;
-    
-    }
-.title h1{
-line-height: 90%;
-font-size: 6vw;
-}
-    .pp{
-        margin-top: 10%;
-    }
-    .right{
-     height: 80%;
-    }
 
-    .h3{
-        line-height: 1.5em
-    }
-
-    .page2{
-        height: 350vh;
-    }
-  }
 
   @media only screen and (max-height: 500px) and (orientation: landscape) {
     .page1{
-        height: 200vh;
+        height: auto;
     }
     .left{
         height: 50%;
@@ -2442,15 +2410,18 @@ font-size: 6vw;
     .h3{
         line-height: 1.5em
     }
+    .h2{
+        line-height: 1.5em;
+    }
 
     .page2{
-        height: 490vh;
+        height: auto;
     }
   }
   
   @media only screen and (max-height: 370px) and (orientation: landscape) {
     .page1{
-        height: 100vh;
+        height: auto;
     }
     .left{
         height: 70%;
@@ -2468,11 +2439,11 @@ font-size: 6vw;
     }
 
     .p, .pp, #par{
-    font-size: 10px;
+    font-size: 20px;
     }
 
     .title{
-        height: 30%;
+        height: auto;
     }
 
     .title h1{
@@ -2480,7 +2451,7 @@ font-size: 6vw;
     }
 
     .page2{
-        height: 590vh;
+        height: auto;
     }
   }
 
