@@ -1,6 +1,9 @@
 import styles from "./list.module.css";
 import Image from "next/image";
 import cat from "../images/cat.jpg"
+import videogames from '../images/videogames.png'
+import image from '../images/image.png'
+import dog from '../images/landingD.jpeg'
 
 
 export const ListProyect = () => {
@@ -11,13 +14,13 @@ export const ListProyect = () => {
 <div className={styles.projectsContainer}>
 <div key="wearfashion" className={styles.proyect}>
 <h1 className={styles.name}>Wearfashion</h1>
-          <Image src={cat} alt="cat" width={200} height={200} className={styles.image}/>
+          <Image src={image} alt="cat" width={200} height={200} className={styles.image}/>
       
         </div>
 
         <div key="Dogs" className={styles.proyect}>
         <h1 className={styles.name}>Dogs</h1>
-          <Image src={cat} alt="cat" width={400} height={200} className={styles.image}/>
+          <Image src={dog} alt="cat" width={400} height={200} className={styles.image}/>
         </div>
 
         <div key="Drivers" className={styles.proyect}>
@@ -28,7 +31,7 @@ export const ListProyect = () => {
 
         <div key="Videogames" className={styles.proyect}>
         <h1 className={styles.name}>Videogames</h1>
-          <Image src={cat} alt="cat" width={400} height={200} className={styles.image}/>
+          <Image src={videogames} alt="cat" width={400} height={200} className={styles.image}/>
      
         </div>
 </div>
