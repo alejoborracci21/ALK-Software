@@ -35,7 +35,7 @@
 }
 
 .title {
-    margin-top: 10%;
+    margin-top: 1%;
 
     height: auto;
 }
@@ -301,6 +301,148 @@
 }
 
 /* Media Queries for Responsive Design */
+@media only screen and (max-width: 1270px) and (orientation: landscape) {
+   
+    .page1 {
+        width: 98%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    .left,
+    .right {
+        width: 50%;
+       
+        box-sizing: border-box;
+    }
+    
+    .left {
+        color: white;
+        height: 100%;
+    
+    }
+ 
+    .title {
+        margin-top: 10%;
+        height: auto;
+        
+    }
+    
+    .title h1 {
+        
+        font-size: 6vw;
+        line-height: 95%;
+        margin-bottom: 0%;
+        color: #76d9df;
+    }
+    
+    .pp {
+    
+        font-size: 20px;
+        line-height: 1.5em;
+        color: white;
+        width: 90%;
+    
+    }
+    #par{
+        text-align: center;
+        color: gray;
+        margin-top: 2%;
+        font-size: 20px;
+        line-height: 1em;
+    }
+    .p {
+       text-align: left;
+        font-size: 20px;
+        line-height: 1.5em;
+        color: gray;
+        width: 90%;
+    
+    }
+    
+    .right {
+        height: 800px;
+        margin-top: 5%;
+        background-image: url('../img/pngegg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+    
+    .page2 {
+        width: 98vw;
+        height: auto;
+        background-color: #E6E6E6;
+        padding-top: 8%;
+        margin: auto;
+        margin-bottom: 0;
+    
+    }
+    
+    .services {
+        height: 80%;
+    padding-left: 3%;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 3%;
+        box-sizing: border-box;
+    }
+    
+    .service {
+        height: 30%;
+        width: 35%;
+        padding: 2%;
+        box-sizing: border-box;
+        text-align: center;
+    
+    }
+    
+    .h3 {
+        text-transform: uppercase;
+        color: #1e3638;
+        line-height: 1em;
+        text-align: left;
+    }
+    
+    .title2 {
+    
+        width: 60%;
+        text-align: center;
+        height: 15%;
+        box-sizing: border-box;
+        padding: 1%;
+        margin: auto;
+    
+    
+    }
+    
+    .h2 {
+        color: #1e3638;
+        font-size: 40px;
+        margin-bottom: 4%;
+        text-transform: uppercase;
+        display: flexbox;
+        flex: 1;
+    }
+    
+    
+    .page3{
+        width: 96%;
+    
+        height: 100vh;
+        padding: 2%;
+        background-color: #D9D9D9;
+    
+    }
+  }  
+ 
 
 @media (orientation:portrait) and (max-width: 1024px) {
     .page1, .page2, .page3 {

@@ -1,11 +1,10 @@
 .container {
-    margin-top: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     padding-bottom: 30px;
-    background-color: rgb(113, 113, 113);
+    background-color: rgb(220, 220, 220);
     padding: 3%;
 }
 
@@ -14,41 +13,114 @@
     margin-bottom: 20px;
 }
 
+.projectsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .proyect {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: black;
-    border: 1px solid black;
-    padding: 20px;
-    margin: 10px;
-    width: 30%;
+    margin-top: 6%;
+    width: 45%;
     box-sizing: border-box;
-    background-color: aqua;
+    border-radius: 0.5vw;
+    margin-bottom: 20px; /* Añadido margen inferior para separar proyectos en columnas */
 }
 
 .image {
     width: 100%;
     height: auto;
-    margin-bottom: 10px; /* Espacio entre la imagen y el nombre */
+    margin-bottom: 10px; 
+    border-radius: 0.5vw;
 }
 
 .name {
-    margin: 0; /* Quita márgenes adicionales */
-    margin-top: 10px; /* Pequeño margen superior */
+    padding: 1%;
+    border-bottom: 1px solid black;
+    margin: 0;
+    margin-bottom: 1.5%;
     font-size: 20px;
     line-height: 1.2;
+    width: 99%;
+    font-weight: 400;
 }
 
 .text {
     width: 100%;
-    font-size: 18px;
-    line-height: 20px;
-    background-color: brown;
+    font-size: 15px;
+    line-height: 1em;
     padding: 10px;
-    box-sizing: border-box; /* Incluye padding en el tamaño total */
+    box-sizing: border-box; 
 }
 
 .description {
     margin: 0;
+}
+
+/* Media Queries para adaptarse a diferentes tamaños de pantalla */
+@media (max-width: 1200px) {
+    .proyect {
+        width: 48%;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin-top: 10%;
+        padding-top: 10%;
+
+    }
+    .title {
+        font-size: 22px;
+    }
+
+    .proyect {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin-top: 20%;
+        padding-top: 10%;
+
+    }
+    .title {
+        font-size: 20px;
+        
+    }
+
+    .proyect {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
 }
