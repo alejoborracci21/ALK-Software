@@ -341,7 +341,7 @@
     
     .pp {
     
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.5em;
         color: white;
         width: 90%;
@@ -351,12 +351,12 @@
         text-align: center;
         color: gray;
         margin-top: 2%;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1em;
     }
     .p {
        text-align: left;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.5em;
         color: gray;
         width: 90%;
@@ -425,7 +425,7 @@
     
     .h2 {
         color: #1e3638;
-        font-size: 40px;
+        font-size: 6vw;
         margin-bottom: 4%;
         text-transform: uppercase;
         display: flexbox;
@@ -679,16 +679,16 @@
     }
 
     .pp {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #par, .p{
-        font-size: 20px;
+        font-size: 15x;
     }
 .h3{
-    font-size:3vw;}
+    font-size:2vw;}
     .h2 {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
 }
