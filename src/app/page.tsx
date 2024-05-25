@@ -1,6 +1,6 @@
 import { Form } from "./contact/components/form";
 import styles from "./pagestyles.module.css"
-import Contratanos from './contratanos/Contratanos'
+import Contratanos from './components/contratanos/Contratanos'
 export default function Landing() {
   return (
     <main className={styles.main}>
