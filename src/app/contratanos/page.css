@@ -193,16 +193,19 @@
     }
     .p,
     .pp {
-        font-size: 14px;
+        font-size: 18px;
+    
+        
     }
     .service {
-        width: 100%;
+        width: 80%;
         height: auto;
+        padding: 1%;
     }
     .service img {
         height: auto;
     }
     .service-text {
-        padding: 5%;
+        padding: 2%;
     }
 }

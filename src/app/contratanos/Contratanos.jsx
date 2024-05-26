@@ -7,6 +7,8 @@ import ux from '../../img/Experiencia UX.png';
 import mobile from '../../img/Experiencia UX (4).png';
 import ecommerce from '../../img/Experiencia UX (1).png';
 import landing from '../../img/Experiencia UX (3).png';
+import CM from '../../img/CM.png'
+import marketing from '../../img/marketing.png'
 
 function Contratanos() {
     useEffect(() => {
@@ -62,6 +64,19 @@ function Contratanos() {
                     </div>
                     <div className='service'>
                         <Image src={mobile} alt="Aplicaciones Móviles" className='img' />
+                        <div className='service-text'>
+                            <p className='p'>Con nuestras aplicaciones móviles personalizadas, te garantizamos experiencias de usuario intuitivas y funcionales en dispositivos iOS y Android. Ya sea para uso interno de la empresa o para llegar a clientes externos, nuestras aplicaciones están diseñadas para satisfacer tus necesidades y objetivos comerciales.</p>
+                        </div>
+                    </div>
+                    <div className='service'>
+                        <Image src={CM} alt="Aplicaciones Móviles" className='img' />
+                        <div className='service-text'>
+                            <p className='p'>Con nuestras aplicaciones móviles personalizadas, te garantizamos experiencias de usuario intuitivas y funcionales en dispositivos iOS y Android. Ya sea para uso interno de la empresa o para llegar a clientes externos, nuestras aplicaciones están diseñadas para satisfacer tus necesidades y objetivos comerciales.</p>
+                        </div>
+                    </div>
+
+                    <div className='service'>
+                        <Image src={marketing} alt="Aplicaciones Móviles" className='img' />
                         <div className='service-text'>
                             <p className='p'>Con nuestras aplicaciones móviles personalizadas, te garantizamos experiencias de usuario intuitivas y funcionales en dispositivos iOS y Android. Ya sea para uso interno de la empresa o para llegar a clientes externos, nuestras aplicaciones están diseñadas para satisfacer tus necesidades y objetivos comerciales.</p>
                         </div>
