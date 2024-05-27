@@ -2,12 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import styles from "./globals.module.css";
-<<<<<<< HEAD
 import { Form } from "./(routes)/contact/components/form";
-=======
-import { Form } from "./contact/components/form";
 import Navbar from "./navbar/Navbar";
->>>>>>> 15f7964ef6320b9f95e5b6257e0d587c5b4a81d6
 
 const inter = Inter({ subsets: ["latin"] });
 
