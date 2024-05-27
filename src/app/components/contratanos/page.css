@@ -1,48 +1,40 @@
+/* Estilos generales y responsive */
 .page {
-    width: 100%;
+    padding: 2vh 0 10vh 0;
     height: 100%;
     background-color: #2c5979ce;
-    padding-top: 8%;
     margin: auto;
     margin-bottom: 0;
-
 }
 
 .services {
-    height: 80%;
-    padding-left: 3%;
-    width: 100%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 3%;
     box-sizing: border-box;
-}
-
-.service {
-    height: 30%;
-    width: 35%;
-    padding: 2%;
-    box-sizing: border-box;
-    text-align: center;
-
+    gap: 20px;
 }
 
 .h3 {
     text-transform: uppercase;
     color: #70c7d3;
     line-height: 1em;
-    text-align: left;
+    text-align: center;
 }
 
 .title {
     width: 60%;
     text-align: center;
-    height: 15%;
     box-sizing: border-box;
     padding: 1%;
     margin: auto;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-size: 40px;
+    height: auto;
 }
 
 .h2 {
@@ -54,39 +46,166 @@
     flex: 1;
 }
 
-.title {
-    margin-top: 10%;
-    font-size: 40px;
-    height: 55%;
-}
-
-.title h1 {
-    height: 80%;
-    font-size: 7vw;
-    line-height: 0.8;
-    margin-bottom: 20px;
-    color: #76d9df;
+.p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: rgb(238, 233, 233);
+    width: 90%;
 }
 
 .pp {
-
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5em;
     color: white;
     width: 90%;
-
 }
-#par{
+
+#par {
     text-align: center;
     color: rgb(211, 208, 208);
     margin-top: 2%;
     font-size: 20px;
 }
-.p {
-   text-align: left;
-    font-size: 20px;
-    line-height: 1.5em;
-    color: rgb(238, 233, 233);
-    width: 90%;
 
+.service {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    
+    max-width: 280px;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #676767;
+    border-radius: 2px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-text {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    transition: left 0.3s ease-in-out;
+}
+
+.service:hover img,
+.service.active img {
+    transform: translateX(-100%);
+}
+
+.service:hover .service-text,
+.service.active .service-text {
+    left: 0;
+}
+
+/* Media Queries para dispositivos móviles y tabletas */
+@media (max-width: 1200px) {
+    .title {
+        font-size: 36px;
+        width: 70%;
+    }
+    .h2 {
+        font-size: 36px;
+        line-height: 1em;
+    }
+}
+
+@media (max-width: 1200px) and (orientation:portrait){
+    .title {
+        font-size: 36px;
+        width: 70%;
+    }
+    .h2 {
+        font-size: 36px;
+        line-height: 1em;
+    }
+    .service{
+        height: auto;
+    max-width: 350px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 32px;
+        width: 80%;
+    }
+    .h2 {
+        font-size: 32px;
+        line-height: 1em;
+    }
+    .services {
+        width: 90%;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 28px;
+        width: 90%;
+    }
+    .h2 {
+        font-size: 28px;
+        line-height: 1em;
+    }
+    .services {
+        width: 95%;
+    }
+    .service {
+        width: 100%;
+        height: auto;
+    }
+    .service img {
+        height: auto;
+    }
+    .service-text {
+        padding: 2%;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 24px;
+        width: 95%;
+    }
+    .h2 {
+        font-size: 24px;
+        line-height: 1em;
+    }
+    .p,
+    .pp {
+        font-size: 18px;
+    
+        
+    }
+    .service {
+        width: 80%;
+        height: auto;
+        padding: 1%;
+    }
+    .service img {
+        height: auto;
+    }
+    .service-text {
+        padding: 2%;
+    }
 }

@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   line-height: 0;
-  background-color: black;
+  background-color: #284B63;
+
+  box-sizing: border-box;
 }
 
 
@@ -13,7 +15,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 11%;
+  height: 10%;
   background-color: #284B63;
   /* font-size: 50px; */
 
@@ -53,6 +55,8 @@
 
 .sections {
   width: 100%;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 /* .button {
@@ -125,6 +129,7 @@
   justify-content: center;
   width: 100%;
   height: 20vh;
+  position: relative;
   bottom: 0;
   background: linear-gradient(to top, #feffff, #ffffff);
 }
@@ -274,8 +279,4 @@
   margin-top: 16px;
 }
 
-@media screen and (orientation:portrait) and (max-width:360px) {
-  /* .navbar{
-    display: none;
-  } */
-}
+

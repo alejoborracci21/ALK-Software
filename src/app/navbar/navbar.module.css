@@ -1,0 +1,266 @@
+/* navbar.module.css */
+.container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 11px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 11%;
+    transition: all 0.50s ease;
+    background-size: cover;
+    background-position: center;
+    background-color: #284B63;
+}
+
+.logo {
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    top: 5;
+    right: 85%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url('../../img/ALK2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(5px 6px 9px #000000bd);
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+}
+
+.navlist a {
+    display: inline-block;
+    margin: 0 22px;
+    color: beige;
+    font-size: 1.4rem;
+    transition: all .6s ease;
+    text-decoration: none;
+}
+
+.navlist a:hover {
+    color: #302e2ed3;
+}
+
+.rigchcontent {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.btnlogin {
+    display: inline-block;
+    padding: 9px 24px;
+    background: transparent;
+    border: 2px solid beige;
+    border-radius: 8px;
+    color: antiquewhite;
+    font-size: 9px;
+    font-weight: 500;
+    transition: all .6s ease;
+    display: none;
+}
+
+.btnlogin:hover {
+    transform: translateY(-5px);
+    border: 2px solid rgb(219, 210, 81);
+    color: rgb(219, 210, 81);
+}
+
+.bxmenu {
+    font-size: 42px;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}
+
+.button {
+    font-size: 19px;
+    color: #e1e1e1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    font-weight: 80;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+.button:focus,
+.button:hover {
+    color: #302e2ed3;
+}
+
+.button:focus:after,
+.button:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+.link {
+    padding: 5px;
+}
+
+/* Media Queries */
+@media(max-width: 1770px) {
+    .container {
+        padding: 22px 4%;
+    }
+}
+
+@media(max-width: 1150px) {
+    .container {
+        padding: 0 4%;
+    }
+}
+
+@media(max-width: 950px) {
+    .bxmenu {
+        display: block;
+    }
+
+    .navlist {
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+        padding: 100px 50px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 100%;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(32px);
+        transition: all .6s ease-in-out;
+    }
+
+    .navlist a {
+        display: block;
+        padding: 0;
+        margin: 0px 0px 25px 0px;
+        font-size: 1.7rem;
+    }
+
+    .rigchcontent {
+        right: 10px;
+    }
+
+    .navlist.open {
+        left: 0;
+    }
+}
+
+@media(max-width: 550px) {
+    .container {
+        padding: 0 4%;
+    }
+
+    .navlist {
+        padding: 5px 25px;
+    }
+
+    .navlist a {
+        margin: 10px 0;
+        font-size: 1.3rem;
+    }
+
+    .rigchcontent {
+        right: 10px;
+    }
+
+    .bxmenu {
+        display: block;
+        font-size: 82px;
+    }
+}
+
+@media(max-width: 450px) {
+    .container {
+        padding: 0 4%;
+    }
+
+    .navlist {
+        padding: 5px 25px;
+    }
+
+    .navlist a {
+        margin: 10px 0;
+        font-size: 1.5rem;
+    }
+
+    .bxmenu {
+        display: block;
+        font-size: 100px;
+    }
+
+    .logo {
+        height: 55px;
+        width: 60px;
+   
+    }
+
+    .bxmenu svg {
+        display: block;
+        width: 58px;
+        height: auto;
+    }
+}
+
+@media(max-width: 300px) {
+    .container {
+        padding: 4%;
+    }
+
+    .logo {
+
+        right: 22px;
+        justify-content: center;
+    }
+
+    .navlist {
+        padding: 30px 15px;
+    }
+
+    .navlist a {
+        margin: 8px 0;
+        font-size: 1.3rem;
+    }
+
+    .bxmenu {
+        display: block;
+    }
+}

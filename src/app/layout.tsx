@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import styles from "./globals.module.css";
+<<<<<<< HEAD
 import { Form } from "./(routes)/contact/components/form";
+=======
+import { Form } from "./contact/components/form";
+import Navbar from "./navbar/Navbar";
+>>>>>>> 15f7964ef6320b9f95e5b6257e0d587c5b4a81d6
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +25,7 @@ export default function RootLayout({
       <head></head>
 
       <body className={inter.className}>
-        <nav className={styles.navbar}>
+        {/* <nav className={styles.navbar}>
           <div className={styles.logo}></div>
           <Link href={"/"} className={styles.link}>
             <button className={styles.button}>Inicio</button>
@@ -34,7 +39,8 @@ export default function RootLayout({
           <Link href={"/contact"} className={styles.link}>
             <button className={styles.button}>Contacto</button>
           </Link>
-        </nav>
+        </nav> */}
+        <Navbar/>
 
         <div className={styles.sections}>{children}</div>
 
