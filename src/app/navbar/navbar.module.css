@@ -221,32 +221,37 @@
         margin: 10px 0;
         font-size: 1.5rem;
     }
-
+    .rigchcontent {
+        right: 20px;
+        right: 45px;
+        top: 5px;
+    }
     .bxmenu {
         display: block;
         font-size: 100px;
     }
 
     .logo {
-        height: 55px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
+        left: 22px;
    
     }
 
     .bxmenu svg {
+        top: 2px;
         display: block;
-        width: 58px;
+        width: 50px;
         height: auto;
     }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 350px) {
     .container {
-        padding: 4%;
+        padding: 0;
     }
 
     .logo {
-
         right: 22px;
         justify-content: center;
     }
@@ -259,8 +264,17 @@
         margin: 8px 0;
         font-size: 1.3rem;
     }
-
+    .rigchcontent {
+       right:10px;
+    }
     .bxmenu {
         display: block;
+    }
+
+    
+    .bxmenu svg {
+        display: block;
+        width:45px;
+        height: auto;
     }
 }
