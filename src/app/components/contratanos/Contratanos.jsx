@@ -3,12 +3,12 @@
 import React, { useEffect } from 'react';
 import './page.css';
 import Image from "next/image";
-import ux from '../../img/Experiencia UX.png';
-import mobile from '../../img/Experiencia UX (4).png';
-import ecommerce from '../../img/Experiencia UX (1).png';
-import landing from '../../img/Experiencia UX (3).png';
-import CM from '../../img/CM.png'
-import marketing from '../../img/marketing.png'
+import ux from '../../../img/Experiencia UX.png';
+import mobile from '../../../img/Experiencia UX (4).png';
+import ecommerce from '../../../img/Experiencia UX (1).png';
+import landing from '../../../img/Experiencia UX (3).png';
+import CM from '../../../img/CM.png'
+import marketing from '../../../img/marketing.png'
 
 function Contratanos() {
     useEffect(() => {

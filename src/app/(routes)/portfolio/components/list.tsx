@@ -1,6 +1,6 @@
 import styles from "./list.module.css";
 import Image from "next/image";
-import cat from "../images/cat.jpg"
+import cat from "../images/drivers.png"
 import videogames from '../images/videogames.png'
 import image from '../images/image.png'
 import dog from '../images/landingD.jpeg'
