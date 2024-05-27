@@ -1,4 +1,4 @@
-import { Form } from "./pages/contact/components/form";
+import { Form } from "./(routes)/contact/components/form";
 import styles from "./pagestyles.module.css"
 import Contratanos from './components/contratanos/Contratanos'
 export default function Landing() {

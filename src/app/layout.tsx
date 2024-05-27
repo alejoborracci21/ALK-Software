@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import styles from "./globals.module.css";
-import { Form } from "./pages/contact/components/form";
+import { Form } from "./(routes)/contact/components/form";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -20,7 +20,7 @@
     width: 100%;
     margin: auto;
     height: 100vh;
-background-image: linear-gradient(rgba(0, 0, 0, 0.942), rgba(0, 0, 0, 0.662)), url('../../img/teclado.jpg');
+background-image: linear-gradient(rgba(0, 0, 0, 0.942), rgba(0, 0, 0, 0.662)), url('../../../img/teclado.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
