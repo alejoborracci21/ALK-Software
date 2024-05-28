@@ -1,0 +1,209 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f3f4f6;
+    padding: 20px;
+    
+}
+
+.page {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.page img {
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.detail-image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.tech {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: left;
+}
+
+.tech h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tech ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tech ul li {
+    font-size: 1rem;
+    line-height: 1em;
+    color: #555;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.tech ul li:before {
+    content: "•";
+    color: #10b981;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+
+    
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .page img {
+        width: 80%;
+    }
+
+    .description {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .tech h3 {
+        font-size: 1.1rem;
+    }
+
+    .tech ul li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 1.8rem;
+    }
+
+    .page img{
+        width: 100%;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .tech h3 {
+        font-size: 1rem;
+    }
+
+    .tech ul li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+   .main{
+    padding: 0;
+   }
+   
+    .h1 {
+        font-size: 1.5rem;
+    }
+.page img{
+    width: 100%;
+}
+
+.page{
+    width: 100%;
+}
+    .description {
+        font-size: 18px;
+        width: 90%;
+
+    }
+
+    .tech h3 {
+        font-size: 0.9rem;
+    }
+    .tech{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tech ul li {
+        font-size: 18px;
+    }
+}
+
+/* Orientation Specific Styles */
+@media (orientation: landscape) {
+    .main {
+        padding: 10px;
+    }
+
+    .page {
+        margin-top: 10%;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .tech {
+        padding: 10px;
+    }
+}
+
+@media (orientation: portrait) {
+    .main {
+        padding: 20px;
+    }
+
+    .page {
+        margin-top: 20%;
+    }
+    .page img{
+        height: auto;
+        width: 100%;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .tech {
+        padding: 15px;
+    }
+}
