@@ -1,6 +1,7 @@
 import style from './dogs.module.css';
 import Image from 'next/image';
 import paws from '../../../portfolio/images/landingD.jpeg';
+import Link from 'next/link';
 
 export default function Page() {
     return (
@@ -15,17 +16,20 @@ export default function Page() {
                 <div className={style.tech}>
                     <h3>Tecnologías utilizadas:</h3>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React JS</li>
-                        <li>Redux</li>
-                        <li>Express</li>
-                        <li>Node JS</li>
-                        <li>PostgreSQL</li>
-                        <li>Sequelize</li>
+                        <li><i className="fab fa-html5"></i> HTML</li>
+                        <li><i className="fab fa-css3-alt"></i> CSS</li>
+                        <li><i className="fab fa-js"></i> JavaScript</li>
+                        <li><i className="fab fa-react"></i> React JS</li>
+                        <li><i className="fab fa-redux"></i> Redux</li>
+                        <li><i className="fab fa-node-js"></i> Express</li>
+                        <li><i className="fab fa-node"></i> Node JS</li>
+                        <li><i className="fas fa-database"></i> PostgreSQL</li>
+                        <li><i className="fas fa-code"></i> Sequelize</li>
                     </ul>
                 </div>
+                <Link href="http://localhost:3000/portfolio">
+                    <button className={style.backButton}>Volver al Portafolio</button>
+                </Link>
             </div>
         </div>
     );

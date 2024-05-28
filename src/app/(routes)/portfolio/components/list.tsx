@@ -14,28 +14,28 @@ export const ListProyect = () => {
       <div className={styles.projectsContainer}>
         <div key="wearfashion" className={styles.proyect}>
           <h1 className={styles.name}>Wearfashion</h1>
-          <Link href="http://localhost:3000/portfolio/pages/wearfashion">
+          <Link href="/portfolio/pages/wearfashion">
             <Image src={image} alt="wearfashion" width={200} height={200} className={styles.image} />
           </Link>
         </div>
 
         <div key="Dogs" className={styles.proyect}>
           <h1 className={styles.name}>Dogs</h1>
-          <Link href="http://localhost:3000/portfolio/pages/dogs">
+          <Link href="/portfolio/pages/dogs">
             <Image src={dog} alt="dogs" width={400} height={200} className={styles.image} />
           </Link>
         </div>
 
         <div key="Drivers" className={styles.proyect}>
           <h1 className={styles.name}>Drivers</h1>
-          <Link href="http://localhost:3000/portfolio/pages/drivers">
+          <Link href="/portfolio/pages/drivers">
             <Image src={cat} alt="drivers" width={400} height={200} className={styles.image} />
           </Link>
         </div>
 
         <div key="Videogames" className={styles.proyect}>
           <h1 className={styles.name}>Pokemon</h1>
-          <Link href="http://localhost:3000/portfolio/pages/pokemon">
+          <Link href="/portfolio/pages/pokemon">
             <Image src={videogames} alt="pokemon" width={400} height={200} className={styles.image} />
           </Link>
         </div>
