@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./page.module.css";
 
 
@@ -14,7 +15,7 @@ export default function About() {
               cotidianos.Con un enfoque de innovación y colaboración ALK esta aqui para ofrecer soluciones informaticas.</p>
 
             <p>¿Necesitas ayuda?</p>
-            <button className={styles.contact}>Contactanos!</button>
+            <Link href={"/contact"}><button className={styles.contact}>Contactanos!</button></Link>
           </div>
           <div className={styles.info}>
             <h4 className={styles.h4}>
