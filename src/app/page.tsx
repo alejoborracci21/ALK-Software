@@ -1,6 +1,9 @@
 import { Form } from "./(routes)/contact/components/form";
 import styles from "./pagestyles.module.css"
 import Contratanos from './components/contratanos/Contratanos'
+import Link from "next/link";
+
+
 export default function Landing() {
   return (
     <main className={styles.main}>
@@ -12,7 +15,7 @@ export default function Landing() {
 
             </div>
                <p className={styles.pp}>En ALK ofrecemos soluciones de software personalizadas. Nos especializamos en desarrollo web y móvil, combinado con servicios de Marketing Digital y posicionamiento. Creamos aplicaciones robustas y escalables para mejorar la eficiencia de tu negocio. </p>
-               <button className={styles.infobutton}>Más Información</button>
+               <Link href={"/about"}><button className={styles.infobutton}>Más Información</button></Link>
 
           </div>
           <div className={styles.right}>
